@@ -1,9 +1,9 @@
 
 function App() {
   return (
-    <div className="p-20">
-      hejeczka
-    </div>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   );
 }
 
