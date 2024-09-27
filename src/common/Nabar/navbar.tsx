@@ -6,6 +6,7 @@ import { Squash as Hamburger } from 'hamburger-react'
 import { AnimatePresence, motion } from 'framer-motion';
 import { navbarAnimation } from '../animations';
 
+
 export const Navbar = () => {
     const [mobileNavbar, setMobileNavbar] = useState(false);
 
@@ -18,7 +19,7 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className='flex justify-between xl:px-16 md:px-8 px-4 py-4 bg-dark z-10'>
+            <nav className='flex justify-between md:px-12 px-4 py-4 bg-dark z-10 sticky'>
                 <NavLink to="/Strona-Główna" className='flex md:gap-4 gap-2 items-center'>
                     <img src={logo} alt='Logo' className='md:max-w-12 max-w-8 w-full' />
                     <span className='text-bright md:text-2xl text-lg'>Szwala Barbara</span>
@@ -43,7 +44,7 @@ export const Navbar = () => {
 
             <AnimatePresence>
                 <motion.div
-                    className='fixed w-full bg-#a70d0df grid gap-4 px-4 py-2 md:hidden z-[2] h-20'
+                    className='fixed w-full bg-#a70d0df grid gap-4 px-4 py-6 md:hidden z-[2] bg-dark'
                     initial="hidden"
                     animate={mobileNavbar ? "visible" : "hidden"}
                     exit="hidden"
@@ -54,7 +55,7 @@ export const Navbar = () => {
                         <NavLink
                             key={index}
                             to={link.navigation}
-                            className='text-bright'
+                            className='text-bright active:text-red text-center'
                         >
                             {link.name}
                         </NavLink>
