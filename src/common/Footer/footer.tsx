@@ -7,12 +7,12 @@ const Footer = () => {
     return (
         <footer className='bg-custom-gradient w-full '>
             <div className=" lg:flex grid md:justify-evenly justify-center items-center p-12 md:gap-8 gap-20">
-                <div className='grid justify-center gap-4'>
+                <Link to="/Strona-Główna" className='grid justify-center gap-4'>
                     <img src={logo} alt='Logo' className='m-auto md:max-w-20 max-w-16 w-full' />
                     <span className='text-bright md:text-3xl text-2xl'>
                         ©2024 Szwala Barbara
                     </span>
-                </div>
+                </Link>
 
                 <div className='grid  items-center md:gap-8 gap-4'>
                     <span className='md:text-3xl text-2xl text-bright m-auto'>Mapa Strony</span>
@@ -36,7 +36,9 @@ const Footer = () => {
                             </a>
                         ))}
                     </div>
-                    <button className="bg-bright rounded-md py-2 px-2 md:text-xl text-base shadow-3xl duration-300 hover:opacity-75 hover:scale-105">Formularz Kontaktowy</button>
+                    <Link to="/Kontakt" className="bg-bright rounded-md py-2 md:px-4 px-2 md:text-xl text-base shadow-3xl duration-300 hover:opacity-75 hover:scale-105">Formularz Kontaktowy
+
+                    </Link>
 
                 </div>
             </div>
