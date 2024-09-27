@@ -5,12 +5,19 @@ module.exports = {
     "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js"
   ],
   theme: {
+    backgroundImage: {
+      'custom-gradient': 'linear-gradient(90deg, #030303 17%, #404040 100%)',
+    },
     screens: {
       'md': '960px',
+      'lg': '1000px',
     },
     colors: {
       'dark': '#060206',
       'bright': '#E6E6E6',
+    },
+    boxShadow: {
+      '3xl': '0 10px  10px rgba(255, 255, 255, 0.5)',
     },
   },
   plugins: [
