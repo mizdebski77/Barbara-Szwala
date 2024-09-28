@@ -1,4 +1,3 @@
-import React from 'react';
 import { Hero } from './Sections/hero';
 import { Realisations } from './Sections/realisations';
 

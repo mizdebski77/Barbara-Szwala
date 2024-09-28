@@ -1,7 +1,6 @@
 import React from 'react';
 import hero from '../../../common/Images/hero.jpg';
 import logo from '../../../common/Images/BrightLogo.svg';
-import { Link } from 'react-router-dom';
 import { motion } from "framer-motion"
 
 export const Hero = () => {
