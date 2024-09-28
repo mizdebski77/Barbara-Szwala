@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 export const Hero = () => {
     return (
         <div
-            className="hero min-h-screen overflow-hidden"
+            className="hero min-h-screen"
             style={{
                 backgroundImage: `url(${hero})`,
             }}>
@@ -23,7 +23,7 @@ export const Hero = () => {
                     <img src={logo} alt='Logo' className='md:max-w-20 max-w-12 w-full' />
                     <h1
 
-                        className='lg:text-8xl md:text-5xl text-2xl text-bright text-center tracking-widest m-0'
+                        className='lg:text-8xl md:text-5xl text-3xl text-bright text-center tracking-widest m-0'
                     >Szwala Barbara
                     </h1>
                 </motion.div>

@@ -4,7 +4,7 @@ import { Realisations } from './Sections/realisations';
 
 const Home = () => {
     return (
-        <div>
+        <div className='overflow-hidden'>
             <Hero />
             <Realisations />
         </div>
