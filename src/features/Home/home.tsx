@@ -1,12 +1,12 @@
 import React from 'react';
 import { Hero } from './Sections/hero';
-import { About } from './Sections/about';
+import { Realisations } from './Sections/realisations';
 
 const Home = () => {
     return (
         <div>
             <Hero />
-            <About />
+            <Realisations />
         </div>
     );
 };
