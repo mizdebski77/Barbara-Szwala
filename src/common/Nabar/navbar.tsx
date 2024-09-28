@@ -19,7 +19,7 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className='flex justify-between md:px-12 px-4 py-4 bg-dark z-10 sticky'>
+            <nav className='flex justify-between md:px-12 px-4 py-4 bg-dark z-10 sticky top-0'>
                 <NavLink to="/Strona-Główna" className='flex md:gap-4 gap-2 items-center'>
                     <img src={logo} alt='Logo' className='md:max-w-12 max-w-8 w-full' />
                     <span className='text-bright md:text-2xl text-lg'>Szwala Barbara</span>

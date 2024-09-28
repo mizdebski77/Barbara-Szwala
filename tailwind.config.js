@@ -10,7 +10,7 @@ module.exports = {
     },
     screens: {
       'md': '960px',
-      'lg': '1000px',
+      'lg': '1200px',
     },
     colors: {
       'dark': '#060206',
