@@ -13,10 +13,10 @@ export const Realisations = () => {
                     transition={{ duration: 1 }}
                     className='md:text-7xl text-3xl'>Moje Realizacje</motion.h2 >
                 <motion.p
-                    initial={{ x: '-10%', opacity: 0 }}
+                    initial={{ x: '-5%', opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
-                    transition={{ duration: 1, delay: 0.2 }}
+                    transition={{ duration: 1, delay: 0.4 }}
                     className='md:text-2xl text-lg opacity-75 md:max-w-[70%] max-w-full text-justify'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt laboriosam distinctio placeat error sit suscipit eum nobis officiis natus ad, maxime dolores provident a, vel cumque architecto fugiat voluptatibus!
                 </motion.p >
