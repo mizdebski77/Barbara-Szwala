@@ -17,7 +17,7 @@ function App() {
         <Route path="/Kontakt" element={<Contact />} />
         <Route path="/O-Mnie" element={<About />} />
         <Route path="/Projekty-Wnętrz" element={<Interior />} />
-        <Route path="/Architektura" element={<Outside />} />
+        <Route path="/Architektura" element={<Interior />} />
         <Route path={"*"} element={<Navigate replace to="/Strona-Główna" />}></Route>
         <Route path="/Projekt/:id" element={<Project />} />
 

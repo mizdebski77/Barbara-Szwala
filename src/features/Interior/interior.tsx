@@ -44,7 +44,7 @@ export const Interior = () => {
                         <img src={bg} alt="Project" className="w-full object-cover rounded-md transition-shadow duration-300 group-hover:shadow-2xl" />
                     </a>
 
-                    <div className="relative group cursor-pointer">
+                    <a href='/Projekt/2' className="relative group cursor-pointer">
                         <span className="absolute bottom-4 left-0 right-0 z-[3] text-bright text-2xl flex items-center justify-center">
                             Nazwa projektu
                         </span>
@@ -52,9 +52,9 @@ export const Interior = () => {
                             Sprawdź
                         </span>
                         <img src={bg} alt="Project" className="w-full object-cover rounded-md transition-shadow duration-300 group-hover:shadow-2xl" />
-                    </div>
+                    </a>
 
-                    <div className="relative group cursor-pointer">
+                    <a href='/Projekt/2' className="relative group cursor-pointer">
                         <span className="absolute bottom-4 left-0 right-0 z-[3] text-bright text-2xl flex items-center justify-center">
                             Nazwa projektu
                         </span>
@@ -62,7 +62,7 @@ export const Interior = () => {
                             Sprawdź
                         </span>
                         <img src={bg} alt="Project" className="w-full object-cover rounded-md transition-shadow duration-300 group-hover:shadow-2xl" />
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
