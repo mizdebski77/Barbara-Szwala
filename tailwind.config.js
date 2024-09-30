@@ -11,6 +11,7 @@ module.exports = {
     screens: {
       'md': '960px',
       'lg': '1200px',
+      'vxl': '1920px'
     },
     colors: {
       'dark': '#060206',
