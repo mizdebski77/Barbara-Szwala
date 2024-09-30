@@ -11,13 +11,13 @@ export const Services = () => {
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1 }}
-                    className='md:text-7xl text-3xl'>Moje Usługi</motion.h2 >
+                    className='md:text-7xl text-3xl text-dark'>Moje Usługi</motion.h2 >
                 <motion.p
                     initial={{ x: '-5%', opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1, delay: 0.4 }}
-                    className='md:text-2xl text-lg opacity-75 md:max-w-[70%] max-w-full text-justify'>
+                    className='md:text-2xl text-lg opacity-75 md:max-w-[70%] max-w-full text-justify text-dark'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt laboriosam distinctio placeat error sit suscipit eum nobis officiis natus ad, maxime dolores provident a, vel cumque architecto fugiat voluptatibus!
                 </motion.p >
             </div>

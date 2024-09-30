@@ -16,6 +16,7 @@ module.exports = {
     colors: {
       'dark': '#060206',
       'bright': '#E6E6E6',
+      'text': '#00000',
     },
     boxShadow: {
       '3xl': '0 10px  10px rgba(255, 255, 255, 0.3)',

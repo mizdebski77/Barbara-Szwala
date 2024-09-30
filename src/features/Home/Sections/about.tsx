@@ -10,7 +10,7 @@ export const About = () => {
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: false }}
                 transition={{ duration: 1 }}
-                className='md:text-7xl text-3xl text-center tracking-widest'>
+                className='md:text-7xl text-3xl text-center tracking-widest text-dark'>
                 Kilka słów o mnie
             </motion.h2 >
 
@@ -30,19 +30,19 @@ export const About = () => {
                             whileInView={{ x: 0, opacity: 1 }}
                             viewport={{ once: false }}
                             transition={{ duration: 1 }}
-                            className='md:text-5xl text-2xl text-center tracking-wide'>Barbara Szwala</motion.p>
+                            className='md:text-5xl text-2xl text-center tracking-wide text-dark'>Barbara Szwala</motion.p>
                         <motion.p
                             initial={{ y: '10%', opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             viewport={{ once: false }}
                             transition={{ duration: 1 }}
-                            className='md:text-2xl text-lg opacity-75 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero vitae, harum provident laudantium natus officia voluptatibus ad, voluptate nisi voluptas repellendus voluptates non amet architecto in cum consectetur deleniti.</motion.p>
+                            className='md:text-2xl text-lg opacity-75 text-justify text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero vitae, harum provident laudantium natus officia voluptatibus ad, voluptate nisi voluptas repellendus voluptates non amet architecto in cum consectetur deleniti.</motion.p>
                         <motion.p
                             initial={{ y: '10%', opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             viewport={{ once: false }}
                             transition={{ duration: 1, delay: 0.2 }}
-                            className='md:text-2xl text-lg opacity-75 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero vitae, harum provident laudantium natus officia voluptatibus ad, voluptate nisi voluptas repellendus voluptates non amet architecto in cum consectetur deleniti.</motion.p>
+                            className='md:text-2xl text-lg opacity-75 text-justify text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero vitae, harum provident laudantium natus officia voluptatibus ad, voluptate nisi voluptas repellendus voluptates non amet architecto in cum consectetur deleniti.</motion.p>
                     </div>
                 </div>
 
