@@ -25,7 +25,7 @@ export const Services = () => {
             <div className='grid md:grid-cols-3 md:max-w-[100%] max-w-md gap-8 p-4 m-auto'>
 
                 <motion.div
-                    className='lg:p-12 p-8 grid gap-4 shadow-2xl'
+                    className='lg:p-12 p-8 grid gap-4 '
                     initial={{ y: '20%', opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false }}
@@ -40,14 +40,14 @@ export const Services = () => {
 
                     <a
                         href="/Kontakt"
-                        className="m-auto group relative overflow-hidden rounded-xl shadow-3xl bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark hover:ring-1  hover:ring-offset-2">
+                        className="m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark hover:ring-1  hover:ring-offset-2">
                         <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-dark opacity-10  transition-all duration-700 group-hover:-translate-x-80"></span>
                         <span className="relative md:text-xl ">Czytaj więcej</span>
                     </a>
                 </motion.div>
 
                 <motion.div
-                    className='lg:p-12 p-8 grid gap-4 shadow-2xl'
+                    className='lg:p-12 p-8 grid gap-4 '
                     initial={{ y: '20%', opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false }}
@@ -62,14 +62,14 @@ export const Services = () => {
 
                     <a
                         href="/Kontakt"
-                        className="m-auto group relative overflow-hidden rounded-xl shadow-3xl bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark hover:ring-1  hover:ring-offset-2">
+                        className="m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark hover:ring-1  hover:ring-offset-2">
                         <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-dark opacity-10  transition-all duration-700 group-hover:-translate-x-80"></span>
                         <span className="relative md:text-xl ">Czytaj więcej</span>
                     </a>
                 </motion.div>
 
                 <motion.div
-                    className='lg:p-12 p-8 grid gap-4 shadow-2xl'
+                    className='lg:p-12 p-8 grid gap-4 '
                     initial={{ y: '20%', opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false }}
@@ -84,7 +84,7 @@ export const Services = () => {
 
                     <a
                         href="/Kontakt"
-                        className="m-auto group relative overflow-hidden rounded-xl shadow-3xl bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark hover:ring-1  hover:ring-offset-2">
+                        className="m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark hover:ring-1  hover:ring-offset-2">
                         <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-dark opacity-10  transition-all duration-700 group-hover:-translate-x-80"></span>
                         <span className="relative md:text-xl ">Czytaj więcej</span>
                     </a>

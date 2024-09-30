@@ -10,7 +10,10 @@ export const Contact = () => {
 
             <form>
                 <div className='flex justify-center gap-8'>
-                    <input className='bg-bright border-b-2 px-4 py-2 text-dark focus:outline-none' />
+                    <label>
+                        <input className='bg-bright border-b-2 px-4 py-2 text-dark focus:outline-none' />
+
+                    </label>
                     <input className='bg-bright border-b-2 px-4 py-2 text-dark focus:outline-none' />
                 </div>
 

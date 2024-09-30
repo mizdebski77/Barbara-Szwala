@@ -22,7 +22,7 @@ export const About = () => {
                     transition={{ duration: 1 }}
                     src={Barbara}
                     alt='Barbara'
-                    className='m-auto shadow-2xl border-4 max-w-80 w-full' />
+                    className='m-auto  border-4 border-dirty max-w-80 w-full' />
                 <div>
                     <div className='grid md:gap-8 gap-4 items-center justify-center'>
                         <motion.p

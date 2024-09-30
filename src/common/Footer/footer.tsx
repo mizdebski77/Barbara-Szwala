@@ -39,7 +39,7 @@ const Footer = () => {
                                 </a>
                             ))}
                         </div>
-                        <Link to="/Kontakt" className="m-auto group relative overflow-hidden rounded-xl shadow-3xl bg-buttons md:px-12 px-6 md:py-3 py-2 text-bright transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-dark hover:dark  hover:ring-1  hover:ring-offset-2">
+                        <Link to="/Kontakt" className="m-auto group relative overflow-hidden rounded-xl  bg-buttons md:px-12 px-6 md:py-3 py-2 text-bright transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-dark hover:dark  hover:ring-1  hover:ring-offset-2">
                             <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-main  opacity-50  transition-all duration-700 group-hover:-translate-x-80"></span>
                             <span className="relative md:text-xl ">Formularz kontaktowy</span>
                         </Link>

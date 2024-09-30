@@ -19,6 +19,7 @@ module.exports = {
       'buttons': '#2f0b0f',
       'main': '#dad1c3',
       'text': '#00000',
+      'dirty': '#8b6d6a',
     },
     boxShadow: {
       '3xl': '0 10px  10px rgba(255, 255, 255, 0.3)',
