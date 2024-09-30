@@ -25,8 +25,6 @@ export const About = () => {
                     >O mnie
                     </h1>
                 </motion.div>
-
-
             </div>
 
 
