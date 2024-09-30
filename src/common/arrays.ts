@@ -5,7 +5,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 
 export const Links = [
     { name: 'Strona Główna', navigation: '/Strona-Główna' },
-    { name: 'O mnie', navigation: '/O-Nas' },
+    { name: 'O mnie', navigation: '/O-Mnie' },
     { name: 'Architektura', navigation: '/Architektura' },
     { name: 'Projekty Wnętrz', navigation: '/Projekty-Wnętrz' },
     { name: 'Kontakt', navigation: '/Kontakt' },
