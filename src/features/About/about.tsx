@@ -39,7 +39,7 @@ export const About = () => {
                         whileInView={{ x: 0, opacity: 1 }}
                         viewport={{ once: false }}
                         transition={{ duration: 1 }}
-                        src={barbara} alt='Barbara' className='m-auto border-2 border-dirty z-[2]  md:max-w-lg max-w-72 w-full' />
+                        src={barbara} alt='Barbara' className='m-auto z-[2]  md:max-w-lg max-w-72 w-full' />
                     <div className='grid md:gap-12 gap-6 z-[2]'>
                         <motion.div
                             initial={{ x: '5%', opacity: 0 }}

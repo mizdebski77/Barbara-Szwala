@@ -11,7 +11,7 @@ export const Realisations = () => {
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1 }}
-                    className='md:text-7xl text-3xl text-dark'>Realizacje</motion.h2 >
+                    className='md:text-7xl text-3xl text-dark'>Projekty</motion.h2 >
                 <motion.p
                     initial={{ x: '-5%', opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
