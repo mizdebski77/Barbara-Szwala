@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Barbara-Szwala/static/css/main.748585eb.css",
-    "main.js": "/Barbara-Szwala/static/js/main.9a61b6aa.js",
+    "main.js": "/Barbara-Szwala/static/js/main.8bea7325.js",
     "static/js/453.b792764d.chunk.js": "/Barbara-Szwala/static/js/453.b792764d.chunk.js",
     "static/media/contact.jpg": "/Barbara-Szwala/static/media/contact.7802346df843e8f62517.jpg",
     "static/media/hero.jpg": "/Barbara-Szwala/static/media/hero.226cb94df640260eaf3b.jpg",
@@ -11,11 +11,11 @@
     "index.html": "/Barbara-Szwala/index.html",
     "static/media/Footer.svg": "/Barbara-Szwala/static/media/Footer.2497c510e278ee61d53acef15f808890.svg",
     "main.748585eb.css.map": "/Barbara-Szwala/static/css/main.748585eb.css.map",
-    "main.9a61b6aa.js.map": "/Barbara-Szwala/static/js/main.9a61b6aa.js.map",
+    "main.8bea7325.js.map": "/Barbara-Szwala/static/js/main.8bea7325.js.map",
     "453.b792764d.chunk.js.map": "/Barbara-Szwala/static/js/453.b792764d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.748585eb.css",
-    "static/js/main.9a61b6aa.js"
+    "static/js/main.8bea7325.js"
   ]
 }
