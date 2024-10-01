@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Navbar } from "../common/Nabar/navbar";
 import Footer from "../common/Footer/footer";
 import Home from "../features/Home/home";
@@ -10,7 +10,7 @@ import { Project } from "../features/Interior/project";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/Strona-Główna" element={<Home />} />
@@ -19,11 +19,11 @@ function App() {
         <Route path="/Projekty-Wnętrz" element={<Interior />} />
         <Route path="/Architektura" element={<Interior />} />
         <Route path={"*"} element={<Navigate replace to="/Strona-Główna" />}></Route>
-        <Route path="/Projekt/:id" element={<Project />} />
+        <Route path="/Projekty-Wnętrz/:id" element={<Project />} />
 
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

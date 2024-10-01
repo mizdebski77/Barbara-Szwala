@@ -28,7 +28,7 @@ export const About = () => {
             </div>
 
 
-            <div className='min-h-screen  text-center md:p-24 p-6  relative'>
+            <div className=' text-center md:p-24 p-6  relative'>
                 <img src={darkLogo} alt='logo' className='absolute max-w-3xl opacity-5 w-full m-auto left-0 right-0 top-0 bottom-0 ' />
 
                 <h2 className=' md:text-6xl text-3xl md:mb-16 mb-8 z-[2] font-medium'>Barbara Szwala</h2>
