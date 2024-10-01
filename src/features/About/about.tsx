@@ -31,7 +31,7 @@ export const About = () => {
             <div className=' text-center md:p-24 p-6  relative'>
                 <img src={darkLogo} alt='logo' className='absolute max-w-3xl opacity-5 w-full m-auto left-0 right-0 top-0 bottom-0 ' />
 
-                <h2 className=' md:text-6xl text-3xl md:mb-16 mb-8 z-[2] font-medium'>Barbara Szwala</h2>
+                <h2 className=' md:text-5xl text-3xl md:mb-16 mb-8 z-[2] font-medium'>Barbara Szwala</h2>
 
                 <div className='md:flex grid md:gap-8 gap-4 max-w-screen-lg m-auto'>
                     <motion.img
@@ -39,7 +39,7 @@ export const About = () => {
                         whileInView={{ x: 0, opacity: 1 }}
                         viewport={{ once: false }}
                         transition={{ duration: 1 }}
-                        src={barbara} alt='Barbara' className='m-auto z-[2]  md:max-w-lg max-w-72 w-full' />
+                        src={barbara} alt='Barbara' className='m-auto z-[2]  md:max-w-lg max-w-64 w-full' />
                     <div className='grid md:gap-12 gap-6 z-[2]'>
                         <motion.div
                             initial={{ x: '5%', opacity: 0 }}
@@ -47,30 +47,29 @@ export const About = () => {
                             viewport={{ once: false }}
                             transition={{ duration: 1 }}
                             className='grid md:gap-4 gap-2'>
-                            <p className='md:text-4xl text-2xl text-start'>Edukacja</p>
-                            <p className='md:text-2xl text-lg text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolor necessitatibus. Nam atque repellat tenetur enim nemo ex harum quam quisquam. </p>
+                            <p className='md:text-3xl text-2xl text-start'>Edukacja</p>
+                            <p className='md:text-xl text-lg text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolor necessitatibus. Nam atque repellat tenetur enim nemo ex harum quam quisquam. </p>
                         </motion.div >
 
                         <motion.div
                             initial={{ x: '5%', opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             viewport={{ once: false }}
-                            transition={{ duration: 1, delay: 0.2 }}
+                            transition={{ duration: 1 }}
                             className='grid md:gap-4 gap-2'>
-                            <p className='md:text-4xl text-2xl text-start'>Edukacja</p>
-                            <p className='md:text-2xl text-lg text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolor necessitatibus. Nam atque repellat tenetur enim nemo ex harum quam quisquam. </p>
+                            <p className='md:text-3xl text-2xl text-start'>Edukacja</p>
+                            <p className='md:text-xl text-lg text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolor necessitatibus. Nam atque repellat tenetur enim nemo ex harum quam quisquam. </p>
                         </motion.div >
 
                         <motion.div
                             initial={{ x: '5%', opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             viewport={{ once: false }}
-                            transition={{ duration: 1, delay: 0.4 }}
+                            transition={{ duration: 1 }}
                             className='grid md:gap-4 gap-2'>
-                            <p className='md:text-4xl text-2xl text-start'>Edukacja</p>
-                            <p className='md:text-2xl text-lg text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolor necessitatibus. Nam atque repellat tenetur enim nemo ex harum quam quisquam. </p>
+                            <p className='md:text-3xl text-2xl text-start'>Edukacja</p>
+                            <p className='md:text-xl text-lg text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolor necessitatibus. Nam atque repellat tenetur enim nemo ex harum quam quisquam. </p>
                         </motion.div >
-
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ export const Contact = () => {
                         whileInView={{ y: 0, opacity: 1 }}
                         viewport={{ once: false }}
                         transition={{ duration: 1, }}
-                        className='md:text-7xl text-3xl text-center text-bright tracking-widest'
+                        className='md:text-6xl text-3xl text-center text-bright tracking-widest'
                     >
                         Skontaktuj się ze mną
                     </motion.h3>
@@ -25,7 +25,7 @@ export const Contact = () => {
                         whileInView={{ y: 0, opacity: 1 }}
                         viewport={{ once: false }}
                         transition={{ duration: 1, delay: 0.4 }}
-                        className='md:text-2xl text-lg text-bright text-center opacity-90'
+                        className='md:text-xl text-lg text-bright text-center opacity-90'
                     >
                         Skontaktuj się ze mną wypełniając formularz kontaktowy
                     </motion.p>

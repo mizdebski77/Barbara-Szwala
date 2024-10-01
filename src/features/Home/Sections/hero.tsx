@@ -1,6 +1,6 @@
 import React from 'react';
 import hero from '../../../common/Images/hero.jpg';
-import logo from '../../../common/Images/BrightLogo.svg';
+import logo from '../../../common/Images/AiW.svg';
 import { motion } from "framer-motion"
 
 export const Hero = () => {
@@ -19,7 +19,7 @@ export const Hero = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.7 }}
                     className='flex items-center justify-center md:gap-8 gap-4'>
-                    <img src={logo} alt='Logo' className='md:max-w-20 max-w-12 w-full' />
+                    <img src={logo} alt='Logo' className='md:max-w-40 max-w-16 w-full' />
                     <h1
 
                         className='lg:text-8xl md:text-5xl text-3xl text-bright text-center tracking-widest m-0'

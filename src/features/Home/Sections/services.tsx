@@ -11,13 +11,13 @@ export const Services = () => {
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1 }}
-                    className='md:text-7xl text-3xl text-dark'>Usługi</motion.h2 >
+                    className='md:text-6xl text-3xl text-dark'>Usługi</motion.h2 >
                 <motion.p
                     initial={{ x: '-5%', opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1, delay: 0.4 }}
-                    className='md:text-2xl text-lg opacity-75 md:max-w-[70%] max-w-full text-justify text-dark'>
+                    className='md:text-xl text-lg opacity-75 md:max-w-[70%] max-w-full text-justify text-dark'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt laboriosam distinctio placeat error sit suscipit eum nobis officiis natus ad, maxime dolores provident a, vel cumque architecto fugiat voluptatibus!
                 </motion.p >
             </div>
@@ -42,7 +42,7 @@ export const Services = () => {
                         href="/Kontakt"
                         className="m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark ">
                         <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-dark opacity-10  transition-all duration-700 group-hover:-translate-x-80"></span>
-                        <span className="relative md:text-xl ">Czytaj więcej</span>
+                        <span className="relative md:text-md ">Czytaj więcej</span>
                     </a>
                 </motion.div>
 
@@ -64,7 +64,7 @@ export const Services = () => {
                         href="/Kontakt"
                         className="m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark ">
                         <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-dark opacity-10  transition-all duration-700 group-hover:-translate-x-80"></span>
-                        <span className="relative md:text-xl ">Czytaj więcej</span>
+                        <span className="relative md:text-md ">Czytaj więcej</span>
                     </a>
                 </motion.div>
 
@@ -86,7 +86,7 @@ export const Services = () => {
                         href="/Kontakt"
                         className="m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark ">
                         <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-dark opacity-10  transition-all duration-700 group-hover:-translate-x-80"></span>
-                        <span className="relative md:text-xl ">Czytaj więcej</span>
+                        <span className="relative md:text-md ">Czytaj więcej</span>
                     </a>
                 </motion.div>
 
