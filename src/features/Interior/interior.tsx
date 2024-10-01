@@ -54,7 +54,7 @@ export const Interior = () => {
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1 }}
-                    className=' md:text-6xl text-3xl md:mb-16 mb-8 z-[2] font-medium'>Moje realizacje</motion.h2>
+                    className=' md:text-6xl text-3xl md:mb-16 mb-8 z-[2] tracking-wider'>Realizacje</motion.h2>
                 <div className='grid md:grid-cols-3 gap-8'>
 
                     {projects.map((project) => (
