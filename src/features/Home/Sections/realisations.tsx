@@ -11,7 +11,7 @@ export const Realisations = () => {
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1 }}
-                    className='md:text-7xl text-3xl text-dark'>Moje Realizacje</motion.h2 >
+                    className='md:text-7xl text-3xl text-dark'>Realizacje</motion.h2 >
                 <motion.p
                     initial={{ x: '-5%', opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
@@ -39,7 +39,7 @@ export const Realisations = () => {
                 viewport={{ once: false }}
                 transition={{ duration: 1, delay: 0.3 }}
                 href="/Kontakt"
-                className="m-auto group relative overflow-hidden rounded-xl bg-[#8b6d6a] md:px-12 px-8 md:py-3 py-2 text-bright transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-dark hover:bright hover:ring-1  hover:ring-offset-2">
+                className="m-auto group relative overflow-hidden rounded-xl bg-[#8b6d6a] md:px-12 px-8 md:py-3 py-2 text-bright transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-dark hover:bright">
                 <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-bright opacity-50  transition-all duration-700 group-hover:-translate-x-80"></span>
                 <span className="relative md:text-xl ">Projekty</span>
             </motion.a>
