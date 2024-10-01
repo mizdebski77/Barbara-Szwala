@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Barbara-Szwala/static/css/main.748585eb.css",
-    "main.js": "/Barbara-Szwala/static/js/main.8bea7325.js",
+    "main.css": "/Barbara-Szwala/static/css/main.45b031ec.css",
+    "main.js": "/Barbara-Szwala/static/js/main.89f921c8.js",
     "static/js/453.b792764d.chunk.js": "/Barbara-Szwala/static/js/453.b792764d.chunk.js",
     "static/media/contact.jpg": "/Barbara-Szwala/static/media/contact.7802346df843e8f62517.jpg",
     "static/media/hero.jpg": "/Barbara-Szwala/static/media/hero.226cb94df640260eaf3b.jpg",
     "static/media/Barbara.svg": "/Barbara-Szwala/static/media/Barbara.ea9af7976f9e9e73ca6ebf9a7510b5ac.svg",
+    "static/media/AiW.svg": "/Barbara-Szwala/static/media/AiW.c2f69e8a86e183a580afd8b17295bc3e.svg",
     "static/media/BrightLogo.svg": "/Barbara-Szwala/static/media/BrightLogo.0edbf3ae3c79d20d725c7133a0637796.svg",
     "static/media/DarkLogo.svg": "/Barbara-Szwala/static/media/DarkLogo.f299b4a9767915efc4a9f8bd32de2b52.svg",
     "index.html": "/Barbara-Szwala/index.html",
     "static/media/Footer.svg": "/Barbara-Szwala/static/media/Footer.2497c510e278ee61d53acef15f808890.svg",
-    "main.748585eb.css.map": "/Barbara-Szwala/static/css/main.748585eb.css.map",
-    "main.8bea7325.js.map": "/Barbara-Szwala/static/js/main.8bea7325.js.map",
+    "main.45b031ec.css.map": "/Barbara-Szwala/static/css/main.45b031ec.css.map",
+    "main.89f921c8.js.map": "/Barbara-Szwala/static/js/main.89f921c8.js.map",
     "453.b792764d.chunk.js.map": "/Barbara-Szwala/static/js/453.b792764d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.748585eb.css",
-    "static/js/main.8bea7325.js"
+    "static/css/main.45b031ec.css",
+    "static/js/main.89f921c8.js"
   ]
 }
