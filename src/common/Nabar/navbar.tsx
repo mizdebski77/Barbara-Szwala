@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import { Squash as Hamburger } from 'hamburger-react'
 import { AnimatePresence, motion } from 'framer-motion';
 import { navbarAnimation } from '../animations';
+import { scrollTop } from '../../core/scrollTop';
 
 export const Navbar = () => {
     const [mobileNavbar, setMobileNavbar] = useState(false);
@@ -40,13 +41,14 @@ export const Navbar = () => {
     return (
         <>
             <nav className={`flex justify-between md:px-16 px-4 py-4 bg-main z-10 sticky top-0 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-                <NavLink to="/Strona-Główna" className='flex md:gap-4 gap-2 items-center'>
+                <NavLink onClick={scrollTop} to="/Strona-Główna" className='flex md:gap-4 gap-2 items-center'>
                     <img src={logo} alt='Logo' className='md:max-w-12 max-w-8 w-full' />
                 </NavLink>
 
                 <div className='md:flex hidden lg:gap-12 gap-8 items-center justify-center'>
                     {Links.map((link, index) => (
                         <NavLink
+                            onClick={scrollTop}
                             key={index}
                             to={link.navigation}
                             className={({ isActive }) => `text-dark duration-300 hover:translate-y-[-4px] ${isActive ? 'text-bright' : 'text-bright'}`}

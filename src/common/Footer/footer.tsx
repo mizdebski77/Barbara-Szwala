@@ -3,6 +3,7 @@ import logo from '../Images/BrightLogo.svg';
 import { Link } from 'react-router-dom';
 import { Links, Socials } from '../arrays';
 import footerImage from '../Images/Footer.svg';
+import { scrollTop } from '../../core/scrollTop';
 
 const Footer = () => {
     return (
@@ -10,7 +11,7 @@ const Footer = () => {
             <img src={footerImage} alt='Footer' className='md:mt-[-220px] mt-[-60px] vxl:mt-[-320px] ' />
             <div className='bg-main'>
                 <div className=" lg:flex grid md:justify-evenly justify-center items-center md:p-12 py-8 px-4 md:gap-8 gap-20">
-                    <Link to="/Strona-Główna" className='grid justify-center gap-4'>
+                    <Link onClick={scrollTop} to="/Strona-Główna" className='grid justify-center gap-4'>
                         <img src={logo} alt='Logo' className='m-auto md:max-w-20 max-w-16 w-full' />
                         <span className='text-dark md:text-3xl text-2xl'>
                             ©2024 Szwala Barbara
@@ -21,14 +22,11 @@ const Footer = () => {
                         <span className='md:text-3xl text-2xl text-dark m-auto'>Mapa Strony</span>
                         <div className='grid gap-4'>
                             {Links.map((link, index) => (
-                                <Link to={link.navigation} key={index} className='text-dark md:text-lg text-md text-center duration-300 hover:-translate-y-1'>{link.name}</Link>
+                                <Link onClick={scrollTop} to={link.navigation} key={index} className='text-dark md:text-lg text-md text-center duration-300 hover:-translate-y-1'>{link.name}</Link>
                             ))}
                         </div>
                     </div>
 
-                    {/* <div className='grid  items-center'>
-                    <span className='md:text-3xl text-2xl text-dark m-auto'>Usłgui</span>
-                </div> */}
 
                     <div className='grid  items-center justify-center md:gap-8 gap-4'>
                         <span className='md:text-3xl text-2xl text-dark m-auto'>Kontakt</span>
