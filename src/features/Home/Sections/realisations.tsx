@@ -18,7 +18,8 @@ export const Realisations = () => {
                     viewport={{ once: false }}
                     transition={{ duration: 1, delay: 0.4 }}
                     className='md:text-xl text-lg opacity-75 md:max-w-[70%] max-w-full text-justify text-dark '>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt laboriosam distinctio placeat error sit suscipit eum nobis officiis natus ad, maxime dolores provident a, vel cumque architecto fugiat voluptatibus!
+                    W naszych projektach dokładamy wszelkich starań, aby projekt spełniał wszelkie oczekiwania i indywidualne preferencje Klienta.
+                    Łączymy funkcjonalność i estetykę – tak, by osiągnąć doskonałą harmonijną przestrzeń do codziennego życia.
                 </motion.p >
             </div>
 
@@ -27,8 +28,7 @@ export const Realisations = () => {
                 // whileInView={{ y: 0, opacity: 1 }}
                 // viewport={{ once: false }}
                 // transition={{ duration: 1, delay: 0.3 }}
-                className='grid md:grid-cols-3 justify-center items-center max-w-screen-max m-auto'>
-                <img src={bg} alt='Project' />
+                className='grid md:grid-cols-2 gap-12 justify-center items-center max-w-[1500px] m-auto'>
                 <img src={bg} alt='Project' />
                 <img src={bg} alt='Project' />
             </motion.div >
