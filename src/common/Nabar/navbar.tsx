@@ -65,7 +65,7 @@ export const Navbar = () => {
             <AnimatePresence>
                 {mobileNavbar && (
                     <motion.div
-                        className='fixed w-full bg-#a70d0df grid gap-4 px-4 py-6 md:hidden z-[2] bg-dark'
+                        className='fixed w-full bg-#a70d0df grid gap-4 px-4 py-6 md:hidden z-[2] bg-[rgba(0,0,0,0.9)]'
                         initial="hidden"
                         animate="visible"
                         exit="hidden"

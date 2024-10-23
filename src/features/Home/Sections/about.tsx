@@ -10,8 +10,8 @@ export const About = () => {
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: false }}
                 transition={{ duration: 1 }}
-                className='md:text-6xl text-3xl text-center tracking-widest text-dark'>
-                Kilka słów o mnie
+                className='md:text-6xl text-3xl px-12  tracking-widest text-dark'>
+                O mnie
             </motion.h2 >
 
             <div className='grid md:grid-cols-2 gap-4 max-w-[1100px] mx-auto mt-8 items-center px-2'>
@@ -36,13 +36,13 @@ export const About = () => {
                             whileInView={{ y: 0, opacity: 1 }}
                             viewport={{ once: false }}
                             transition={{ duration: 1 }}
-                            className='md:text-xl text-lg opacity-75 text-justify text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero vitae, harum provident laudantium natus officia voluptatibus ad, voluptate nisi voluptas repellendus voluptates non amet architecto in cum consectetur deleniti.</motion.p>
+                            className='md:text-xl text-lg opacity-75 text-justify text-dark'>Cześć! Mam na imię Basia jestem architektem i projektantem wnętrz. Moja praca, a zarazem pasja do przestrzeni sprawia, że mogę tworzyć unikalne, harmonijne środowiska, które odzwierciedlają osobowości moich klientów. </motion.p>
                         <motion.p
                             initial={{ y: '10%', opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             viewport={{ once: false }}
                             transition={{ duration: 1, delay: 0.2 }}
-                            className='md:text-xl text-lg opacity-75 text-justify text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero vitae, harum provident laudantium natus officia voluptatibus ad, voluptate nisi voluptas repellendus voluptates non amet architecto in cum consectetur deleniti.</motion.p>
+                            className='md:text-xl text-lg opacity-75 text-justify text-dark'>Do każdego projektu podchodzę z sumiennością i poczuciem odpowiedzialności, ponieważ wiem, że przestrzeń, w której żyjemy wpływa na to jak się czujemy i jak funkcjonujemy.</motion.p>
                     </div>
                 </div>
 
