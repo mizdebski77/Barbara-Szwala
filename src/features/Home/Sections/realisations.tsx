@@ -1,6 +1,7 @@
 import React from 'react';
 import bg from '../../../common/Images/hero.jpg';
 import { motion } from "framer-motion"
+import { url } from 'inspector';
 
 export const Realisations = () => {
     return (
@@ -29,20 +30,53 @@ export const Realisations = () => {
                 // viewport={{ once: false }}
                 // transition={{ duration: 1, delay: 0.3 }}
                 className='grid md:grid-cols-2 gap-12 justify-center items-center max-w-[1500px] m-auto'>
-                <img src={bg} alt='Project' />
-                <img src={bg} alt='Project' />
-            </motion.div >
+                <a
+                    href='/Kontakt'
+                    className="relative p-48 flex justify-center items-center overflow-hidden group"
+                    style={{
+                        backgroundImage: `url(${bg})`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover'
+                    }}
+                >
+                    <span className="absolute inset-0 bg-cover bg-center transition-transform duration-500 scale-100 group-hover:scale-110"
+                        style={{
+                            backgroundImage: `url(${bg})`
+                        }}>
+                    </span>
 
-            <motion.a
-                initial={{ y: '30%', opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                viewport={{ once: false }}
-                transition={{ duration: 1, delay: 0.3 }}
-                href="/Kontakt"
-                className="m-auto group relative overflow-hidden rounded-xl bg-[#8b6d6a] md:px-12 px-8 md:py-3 py-2 text-bright transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-dark hover:bright">
-                <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-bright opacity-50  transition-all duration-700 group-hover:-translate-x-80"></span>
-                <span className="relative md:text-xl ">Projekty</span>
-            </motion.a>
-        </div>
+                    <span className="relative z-10 text-white text-3xl">Projekty wnętrz</span>
+                    <span
+                        className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 bottom-12 right-12">
+                        🡢
+                    </span>
+                </a>
+
+                <a
+                    href='/Kontakt'
+                    className="relative p-48 flex justify-center items-center overflow-hidden group"
+                    style={{
+                        backgroundImage: `url(${bg})`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover'
+                    }}
+                >
+                    <span className="absolute inset-0 bg-cover bg-center transition-transform duration-500 scale-100 group-hover:scale-110"
+                        style={{
+                            backgroundImage: `url(${bg})`
+                        }}>
+                    </span>
+
+                    <span className="relative z-10 text-white text-3xl">Architektura</span>
+                    <span
+                        className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 bottom-12 right-12">
+                        🡢
+                    </span>
+                </a>
+
+
+
+            </motion.div >
+        </div >
     );
 };
