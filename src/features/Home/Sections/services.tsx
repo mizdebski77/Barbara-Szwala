@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from "framer-motion"
-import bg from '../../../common/Images/hero.jpg';
 
 export const Services = () => {
     return (

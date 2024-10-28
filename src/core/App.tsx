@@ -1,11 +1,10 @@
-import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router-dom";
+import {  HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Navbar } from "../common/Nabar/navbar";
 import Footer from "../common/Footer/footer";
 import Home from "../features/Home/home";
 import { Contact } from "../features/Contact/contact";
 import { About } from "../features/About/about";
 import { Interior } from "../features/Interior/interior";
-import { Outside } from "../features/Outside/outside";
 import { Project } from "../features/Interior/project";
 import { Offer } from "../features/Offer/offer";
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import bg from '../../../common/Images/hero.jpg';
 import { motion } from "framer-motion"
-import { url } from 'inspector';
 
 export const Realisations = () => {
     return (

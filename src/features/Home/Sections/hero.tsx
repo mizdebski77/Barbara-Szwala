@@ -1,5 +1,3 @@
-import React from 'react';
-import hero from '../../../common/Images/hero.jpg';
 import logo from '../../../common/Images/HeaderLogo.svg';
 import { motion } from "framer-motion"
 import bgVideo from '../../../common/videos/bgVideo.mp4';
@@ -8,7 +6,7 @@ import bgVideo from '../../../common/videos/bgVideo.mp4';
 export const Hero = () => {
     return (
         <header
-            className="relative flex  justify-start items-end h-screen mb-12 overflow-hidden"
+            className="relative flex z-[2] justify-start items-end h-screen mb-12 overflow-hidden"
         >
             <div
                 className="  backdrop-blur-sm  relative z-30 p-12 bottom-[25%] text-2xl grid gap-12 text-white bg-purple-300  rounded-xl" >
