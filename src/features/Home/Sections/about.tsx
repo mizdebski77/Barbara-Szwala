@@ -43,6 +43,18 @@ export const About = () => {
                             viewport={{ once: false }}
                             transition={{ duration: 1, delay: 0.2 }}
                             className='md:text-xl text-lg opacity-75 text-justify text-dark'>Do każdego projektu podchodzę z sumiennością i poczuciem odpowiedzialności, ponieważ wiem, że przestrzeń, w której żyjemy wpływa na to jak się czujemy i jak funkcjonujemy.</motion.p>
+
+
+                        <motion.a
+                            initial={{ y: '30%', opacity: 0 }}
+                            whileInView={{ y: 0, opacity: 1 }}
+                            viewport={{ once: false }}
+                            transition={{ duration: 1, delay: 0.3 }}
+                            href="/Kontakt"
+                            className=" group relative overflow-hidden rounded-xl bg-[#8b6d6a] w-fit md:px-12 px-8 py-1 text-bright transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-dark hover:bright float-right ml-auto">
+                            <span className="ease absolute -right-2 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-bright opacity-50 transition-all duration-700 group-hover:-translate-x-80"></span>
+                            <span className="relative md:text-4xl">🡢</span>
+                        </motion.a>
                     </div>
                 </div>
 

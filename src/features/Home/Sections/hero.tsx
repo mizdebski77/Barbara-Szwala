@@ -6,27 +6,27 @@ import { motion } from "framer-motion"
 export const Hero = () => {
     return (
         <div
-            className="hero min-h-screen"
+            className="hero justify-start items-end px-12 py-32 min-h-screen"
             style={{
                 backgroundImage: `url(${hero})`,
             }}>
-            <div className="hero-overlay bg-opacity-80"></div>
 
-            <div className=" grid  gap-4 backdrop-blur-sm lg:py-32 py-12 w-full md:px-32 px-4">
+            <div className="max-w-fit grid gap-12 backdrop-blur-sm lg:py-32 py-12 md:px-32 px-4">
                 <motion.div
                     initial={{ y: '-30%', opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.7 }}
                     className='flex items-center justify-start md:gap-8 gap-4'>
-                    <img src={logo} alt='Logo' className='md:max-w-xl max-w-16 w-full' />
+                    <img src={logo} alt='Logo' className='md:max-w-md max-w-16 w-full' />
                 </motion.div>
+
                 <motion.p
                     initial={{ scale: 0.8, opacity: 0 }}
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.7, }}
-                    className='md:text-2xl text-lg text-bright opacity-80 '>
+                    className='tracking-wide md:text-5xl text-lg text-bright opacity-80 font-bold '>
                     Zadbajmy o Twoją przestrzeń
                 </motion.p>
 
@@ -36,14 +36,11 @@ export const Hero = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.7 }}
                     href="/Kontakt"
-                    className="m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark">
+                    className="max-w-8xl m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark">
                     <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-dark opacity-10  transition-all duration-700 group-hover:-translate-x-80"></span>
                     <span className="relative md:text-xl ">Kontakt</span>
                 </motion.a>
-
-
             </div>
-
         </div>
     );
 };

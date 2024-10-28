@@ -41,15 +41,7 @@ export const About = () => {
                         transition={{ duration: 1 }}
                         src={barbara} alt='Barbara' className='m-auto z-[2]  md:max-w-lg max-w-64 w-full' />
                     <div className='grid md:gap-12 gap-6 z-[2]'>
-                        <motion.div
-                            initial={{ x: '5%', opacity: 0 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                            viewport={{ once: false }}
-                            transition={{ duration: 1 }}
-                            className='grid md:gap-4 gap-2'>
-                            <p className='md:text-3xl text-2xl text-start'>Edukacja</p>
-                            <p className='md:text-xl text-lg text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolor necessitatibus. Nam atque repellat tenetur enim nemo ex harum quam quisquam. </p>
-                        </motion.div >
+
 
                         <motion.div
                             initial={{ x: '5%', opacity: 0 }}
@@ -57,18 +49,31 @@ export const About = () => {
                             viewport={{ once: false }}
                             transition={{ duration: 1 }}
                             className='grid md:gap-4 gap-2'>
-                            <p className='md:text-3xl text-2xl text-start'>Edukacja</p>
-                            <p className='md:text-xl text-lg text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolor necessitatibus. Nam atque repellat tenetur enim nemo ex harum quam quisquam. </p>
-                        </motion.div >
+                            <p className='md:text-xl text-lg text-justify'>
 
-                        <motion.div
-                            initial={{ x: '5%', opacity: 0 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                            viewport={{ once: false }}
-                            transition={{ duration: 1 }}
-                            className='grid md:gap-4 gap-2'>
-                            <p className='md:text-3xl text-2xl text-start'>Edukacja</p>
-                            <p className='md:text-xl text-lg text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolor necessitatibus. Nam atque repellat tenetur enim nemo ex harum quam quisquam. </p>
+                                <p>
+                                    Zawsze interesowało mnie jak miejsce, w którym żyjemy na nas wpływa. W pewnym momencie zdałam sobie sprawę, że to właśnie architektura jest nie tylko kwestią funkcji i estetyki, ale także fundamentalnym elementem kształtującym życie społeczne i indywidualne doświadczenia ludzi. I w taki sposób postanowiłam kształcić się w tym temacie i wybrać architekturę na moją ścieżkę zawodową.
+
+                                </p>
+
+                                <p className='my-4'>
+                                    Nazywam się Barbara Szwala i ukończyłam studia na kierunku Architektura z tytułem magistra inżyniera architekta, gdzie przez lata zdobywałam wiedzę i doświadczenie w zakresie projektowania.
+                                </p>
+
+                                <p className='my-4'>
+                                    W swoich pracach stawiam na połączenie funkcjonalności, estetyki i prostoty z oczekiwaniami i indywidualnymi preferencjami Klientów.
+
+                                </p>
+                                <p className='my-4'>
+                                    Do każdego projektu podchodzę z sumiennością i poczuciem odpowiedzialności, ponieważ wiem, że przestrzeń, w której żyjemy wpływa na to jak się czujemy i jak funkcjonujemy.
+                                </p>
+
+                                <p>
+                                    Jeżeli chcesz wiedzieć jaka jestem prywatnie to z natury jestem optymistką i perfekcjonistką, która lubi sobie stawiać poprzeczkę wysoko i cierpliwie dążyć do wyznaczonego celu. Odpoczywam najczęściej podczas spacerów z psim kompanem Topkiem albo podczas trekkingu po górach.
+
+                                </p>
+
+                            </p>
                         </motion.div >
                     </div>
                 </div>

@@ -18,8 +18,7 @@ export const Services = () => {
                     viewport={{ once: false }}
                     transition={{ duration: 1, delay: 0.4 }}
                     className='md:text-xl text-lg opacity-75 md:max-w-[70%] max-w-full text-justify text-dark'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt laboriosam distinctio placeat error sit suscipit eum nobis officiis natus ad, maxime dolores provident a, vel cumque architecto fugiat voluptatibus!
-                </motion.p >
+                    Indywidualne podejście do każdego projektu pozwala nam stworzyć przestrzenie dopasowane do stylu życia użytkownika oraz z spersonalizowanymi rozwiązaniami, zgodnymi z oczekiwaniami i preferencjami Klienta.                </motion.p >
             </div>
 
             <div className='grid md:grid-cols-3 md:max-w-[100%] max-w-md gap-8 p-4 m-auto'>
@@ -58,7 +57,8 @@ export const Services = () => {
                         backgroundPosition: 'center',
                     }}>
                     <p className='md:text-3xl text-2xl text-center text-bright'>Usługa</p>
-                    <p className='md:text-xl text-md text-bright opacity-90 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam temporibus voluptatum sint esse nulla, quis deleniti perferendis excepturi asperiores repellat quos deserunt consequatur! Omnis possimus fuga sunt, fugit repellat recusandae!</p>
+                    <p className='md:text-xl text-md text-bright opacity-90 text-center'>
+                        Indywidualne podejście do każdego projektu pozwala nam stworzyć przestrzenie dopasowane do stylu życia użytkownika oraz z spersonalizowanymi rozwiązaniami, zgodnymi z oczekiwaniami i preferencjami Klienta.                    </p>
 
                     <a
                         href="/Kontakt"
