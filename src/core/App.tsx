@@ -1,4 +1,4 @@
-import {  HashRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Navbar } from "../common/Nabar/navbar";
 import Footer from "../common/Footer/footer";
 import Home from "../features/Home/home";
@@ -10,7 +10,7 @@ import { Offer } from "../features/Offer/offer";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/Strona-Główna" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
         <Route path="/Oferta" element={<Offer />} />
       </Routes>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

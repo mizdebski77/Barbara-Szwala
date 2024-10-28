@@ -5,11 +5,10 @@ import bgVideo from '../../../common/videos/bgVideo.mp4';
 
 export const Hero = () => {
     return (
-        <header
-            className="relative flex z-[2] justify-start items-end h-screen mb-12 overflow-hidden"
-        >
-            <div
-                className="  backdrop-blur-sm  relative z-30 p-12 bottom-[25%] text-2xl grid gap-12 text-white bg-purple-300  rounded-xl" >
+        <header className="relative flex z-[2] justify-start items-end h-screen mb-12 overflow-hidden">
+
+            <div className="relative z-30 p-12 bottom-[25%] text-2xl grid gap-12 text-white bg-purple-300  rounded-xl" >
+
                 <motion.div
                     initial={{ y: '-30%', opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -24,7 +23,7 @@ export const Hero = () => {
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.7, }}
-                    className='tracking-wide md:text-5xl text-lg text-bright font-bold '>
+                    className='tracking-widest md:text-5xl text-lg text-bright font-bold '>
                     Zadbajmy o Twoją przestrzeń
                 </motion.p>
 
@@ -36,8 +35,11 @@ export const Hero = () => {
                     href="/Kontakt"
                     className="max-w-8xl m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark">
                     <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-dark opacity-10  transition-all duration-700 group-hover:-translate-x-80"></span>
-                    <span className="relative md:text-xl ">Kontakt</span>
-                </motion.a>            </div>
+                    <span className="relative md:text-xl ">
+                        Napisz do mnie
+                    </span>
+                </motion.a>
+            </div>
 
             <video
                 src={bgVideo}

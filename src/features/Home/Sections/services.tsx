@@ -21,8 +21,7 @@ export const Services = () => {
                     Indywidualne podejście do każdego projektu pozwala nam stworzyć przestrzenie dopasowane do stylu życia użytkownika oraz z spersonalizowanymi rozwiązaniami, zgodnymi z oczekiwaniami i preferencjami Klienta.                </motion.p >
             </div>
 
-            <div className=' md:max-w-[100%] max-w-md gap-8  m-auto'>
-
+            <div className=' md:max-w-[100%] max-w-md gap-8 '>
                 <motion.div
                     style={{
                         backgroundImage: `url(${bg})`,
