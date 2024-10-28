@@ -7,6 +7,7 @@ import { About } from "../features/About/about";
 import { Interior } from "../features/Interior/interior";
 import { Outside } from "../features/Outside/outside";
 import { Project } from "../features/Interior/project";
+import { Offer } from "../features/Offer/offer";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Route path="/Architektura" element={<Interior />} />
         <Route path={"*"} element={<Navigate replace to="/Strona-Główna" />}></Route>
         <Route path="/Projekty-Wnętrz/:id" element={<Project />} />
-
+        <Route path="/Oferta" element={<Offer />} />
       </Routes>
       <Footer />
     </HashRouter>
