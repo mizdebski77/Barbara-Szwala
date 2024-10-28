@@ -2,16 +2,17 @@ import React from 'react';
 import hero from '../../../common/Images/hero.jpg';
 import logo from '../../../common/Images/HeaderLogo.svg';
 import { motion } from "framer-motion"
+import bgVideo from '../../../common/videos/bgVideo.mp4';
+
 
 export const Hero = () => {
     return (
-        <div
-            className="hero justify-start items-end px-12 py-32 min-h-screen"
-            style={{
-                backgroundImage: `url(${hero})`,
-            }}>
-
-            <div className="max-w-fit grid gap-12 backdrop-blur-sm lg:py-32 py-12 md:px-32 px-4">
+        <header
+            className="relative flex  justify-start items-end h-screen mb-12 overflow-hidden"
+        >
+            <div
+                className="relative z-30 p-12 bottom-[25%] text-2xl grid gap-12 text-white bg-purple-300 bg-opacity-50 rounded-xl"
+            >
                 <motion.div
                     initial={{ y: '-30%', opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -39,9 +40,18 @@ export const Hero = () => {
                     className="max-w-8xl m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark">
                     <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-dark opacity-10  transition-all duration-700 group-hover:-translate-x-80"></span>
                     <span className="relative md:text-xl ">Kontakt</span>
-                </motion.a>
-            </div>
-        </div>
+                </motion.a>            </div>
+
+            <video
+                src={bgVideo}
+                autoPlay
+                loop
+                muted
+                className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+            />
+
+            Your browser does not support the video tag.
+        </header >
     );
 };
 
