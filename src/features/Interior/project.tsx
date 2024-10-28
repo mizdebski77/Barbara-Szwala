@@ -97,10 +97,10 @@ export const Project = () => {
                 <div className='grid  gap-8'>
                     {largeImageKeys.map((imageKey, index) => (
                         <img
-                            src={largeImagesFolder(imageKey) as string}
+                            src={smallImagesFolder(imageKey) as string}
                             onClick={() => openFullScreen(index)}
                             key={index} alt="Project"
-                            className="max-w-screen-lg m-auto cursor-pointer duration-300 hover:opacity-90 " />
+                            className="max-w-screen-lg w-full m-auto cursor-pointer duration-300 hover:opacity-90 " />
                     ))}
                 </div>
             </div>

@@ -40,7 +40,7 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className={`flex justify-between md:px-16 px-4 py-4 bg-main z-10 sticky top-0 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
+            <nav className={`flex justify-between md:px-16 px-4 py-4 bg-main z-20 sticky top-0 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
                 <NavLink onClick={scrollTop} to="/Strona-Główna" className='flex md:gap-4 gap-2 items-center'>
                     <img src={logo} alt='Logo' className='md:max-w-12 max-w-8 w-full' />
                 </NavLink>
@@ -57,7 +57,7 @@ export const Navbar = () => {
                         </NavLink>
                     ))}
                 </div>
-                <div className='md:hidden block z-10' onClick={toggleMobileNavbar}>
+                <div className='md:hidden block z-20' onClick={toggleMobileNavbar}>
                     <Hamburger color='#ffffff' size={28} toggled={mobileNavbar} toggle={setMobileNavbar} />
                 </div>
             </nav>
@@ -65,7 +65,7 @@ export const Navbar = () => {
             <AnimatePresence>
                 {mobileNavbar && (
                     <motion.div
-                        className='fixed w-full bg-#a70d0df grid gap-4 px-4 py-6 md:hidden z-[2] bg-[rgba(0,0,0,0.9)]'
+                        className='fixed w-full bg-#a70d0df grid gap-4 px-4 py-6 md:hidden z-[19] bg-[rgba(0,0,0,0.9)]'
                         initial="hidden"
                         animate="visible"
                         exit="hidden"

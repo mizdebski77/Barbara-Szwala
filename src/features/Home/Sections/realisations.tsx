@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export const Realisations = () => {
     return (
-        <div className='grid md:gap-8 gap-4 pt-8 md:pb-20 pb-12'>
+        <div className='grid md:gap-8 gap-4 md:pt-8 md:pb-20 pb-12'>
             <div className='md:px-12 px-4  grid md:gap-8 gap-4'>
                 <motion.h2
                     initial={{ x: '-5%', opacity: 0 }}
@@ -30,8 +30,8 @@ export const Realisations = () => {
                 // transition={{ duration: 1, delay: 0.3 }}
                 className='grid md:grid-cols-2 gap-12 justify-center items-center max-w-[1500px] m-auto'>
                 <a
-                    href='/Kontakt'
-                    className="relative p-48 flex justify-center items-center overflow-hidden group"
+                    href='/Projekty-wnętrz'
+                    className="relative md:p-48 px-12 py-20 flex justify-center items-center overflow-hidden group"
                     style={{
                         backgroundImage: `url(${bg})`,
                         backgroundPosition: 'center',
@@ -53,7 +53,7 @@ export const Realisations = () => {
 
                 <a
                     href='/Kontakt'
-                    className="relative p-48 flex justify-center items-center overflow-hidden group"
+                    className="relative md:p-48 px-12 py-20 flex justify-center items-center overflow-hidden group"
                     style={{
                         backgroundImage: `url(${bg})`,
                         backgroundPosition: 'center',

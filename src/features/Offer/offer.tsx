@@ -26,13 +26,13 @@ export const Offer = () => {
                 </motion.div>
             </div>
 
-            <div className="max-w-screen-md mx-auto mb-24">
+            <div className="max-w-screen-md mx-auto mb-24 px-4">
                 {OfferList.map((offer, index) => (
                     <div key={index}>
                         {offer.projects && offer.projects.map((project, idx) => (
                             <div key={idx}>
-                                <div className={`flex items-center ${idx % 2 === 0 ? 'flex-row' : 'flex-row-reverse'} my-32 gap-12`}>
-                                    <img src={project.img} alt={project.name} className="max-w-md rounded-lg" />
+                                <div className={`flex items-center ${idx % 2 === 0 ? 'md:flex-row flex-col' : 'md:flex-row-reverse flex-col'} my-32 md:gap-12 gap-8`}>
+                                    <img src={project.img} alt={project.name} className="max-w-md w-full rounded-lg" />
                                     <div className="flex-1 px-4">
                                         <h3 className="text-3xl my-8 text-[#636363]">{project.name}</h3>
                                         <ul>
