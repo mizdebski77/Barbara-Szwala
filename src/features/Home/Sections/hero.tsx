@@ -11,8 +11,7 @@ export const Hero = () => {
             className="relative flex  justify-start items-end h-screen mb-12 overflow-hidden"
         >
             <div
-                className="relative z-30 p-12 bottom-[25%] text-2xl grid gap-12 text-white bg-purple-300 bg-opacity-50 rounded-xl"
-            >
+                className="  backdrop-blur-sm  relative z-30 p-12 bottom-[25%] text-2xl grid gap-12 text-white bg-purple-300  rounded-xl" >
                 <motion.div
                     initial={{ y: '-30%', opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
