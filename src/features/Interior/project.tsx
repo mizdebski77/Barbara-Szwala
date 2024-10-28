@@ -3,7 +3,18 @@ import { motion } from "framer-motion"
 import bg from '../../common/Images/contact.jpg';
 import logo from '../../common/Images/BrightLogo.svg';
 
+declare const require: {
+    context(path: string, recursive: boolean, regExp: RegExp): {
+        keys(): string[];
+        <T>(id: string): T;
+    };
+};
+
 export const Project = () => {
+
+    const largeImagesFolder = require.context('../../common/Images/Projects', true, /\.png$/);
+    const largeImageKeys = largeImagesFolder.keys();
+
     return (
         <section>
             <div className='hero min-h-screen grid gap-8'
@@ -22,12 +33,12 @@ export const Project = () => {
                         <img src={logo} alt='Logo' className='md:max-w-20 max-w-12 w-full' />
                         <h1
                             className='lg:text-8xl md:text-5xl text-3xl text-bright text-center tracking-widest m-0 whitespace-nowrap'
-                        >Projekt Kuchni
+                        >Projekt mieszkania
                         </h1>
                     </motion.div>
 
                     <div className='text-bright grid justify-center text-xl'>
-                        <p>Lokalizacja: Kraków</p>
+                        <p>Lokalizacja: Olkusz</p>
                         <p>Metraż: 30m2</p>
                         <p>Data realizacji: 2024</p>
                     </div>
@@ -36,25 +47,13 @@ export const Project = () => {
             </div >
 
             <div className='min-h-screen  text-center md:p-24 p-6  relative'>
-                <motion.h2
-                    initial={{ y: '-30%', opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    viewport={{ once: false }}
-                    transition={{ duration: 1 }}
-                    className=' md:text-6xl text-3xl md:mb-8 mb-4 z-[2] font-medium'>Moje realizacje</motion.h2>
-                <p className='md:mb-16 mb-8 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt similique cum natus quaerat placeat sint voluptas iste voluptatum quidem odio, beatae cumque nostrum error, fugiat quam, facilis omnis quod?</p>
                 <div className='grid  gap-8'>
+                    {largeImageKeys.map((imageKey, index) => (
+                        <img
+                            src={largeImagesFolder(imageKey) as string}
 
-                    <img src={bg} alt="Project" className="max-w-screen-lg m-auto" />
-                    <img src={bg} alt="Project" className="max-w-screen-lg m-auto" />
-                    <img src={bg} alt="Project" className="max-w-screen-lg m-auto" />
-                    <img src={bg} alt="Project" className="max-w-screen-lg m-auto" />
-                    <img src={bg} alt="Project" className="max-w-screen-lg m-auto" />
-                    <img src={bg} alt="Project" className="max-w-screen-lg m-auto" />
-                    <img src={bg} alt="Project" className="max-w-screen-lg m-auto" />
-                    <img src={bg} alt="Project" className="max-w-screen-lg m-auto" />
-                    <img src={bg} alt="Project" className="max-w-screen-lg m-auto" />
-                    <img src={bg} alt="Project" className="max-w-screen-lg m-auto" />
+                            key={index} alt="Project" className="max-w-screen-lg m-auto" />
+                    ))}
                 </div>
             </div>
         </section>

@@ -3,28 +3,16 @@ import { motion } from "framer-motion"
 import bg from '../../common/Images/contact.jpg';
 import logo from '../../common/Images/BrightLogo.svg';
 import { Link } from 'react-router-dom';
-
+import piotr from '../../common/Images/Projects/Piter/PIOTREK_WNĘTRZE_Scena 1.effectsResult.png'
 export const Interior = () => {
 
     const projects = [
         {
             id: 1,
             link: '/Projekt/1',
-            name: 'Nazwa projektu 1',
-            imgSrc: bg, // Zakładam, że 'bg' jest zmienną reprezentującą obraz
-        },
-        {
-            id: 2,
-            link: '/Projekt/2',
-            name: 'Nazwa projektu 2',
+            name: 'Mieszkanie: Projekt wnętrza',
             imgSrc: bg,
         },
-        {
-            id: 3,
-            link: '/Projekt/3',
-            name: 'Nazwa projektu 3',
-            imgSrc: bg,
-        }
     ];
 
     return (
