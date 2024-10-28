@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion"
+import bg from '../../../common/Images/contact.jpg';
 
 export const Services = () => {
     return (
@@ -20,17 +21,22 @@ export const Services = () => {
                     Indywidualne podejście do każdego projektu pozwala nam stworzyć przestrzenie dopasowane do stylu życia użytkownika oraz z spersonalizowanymi rozwiązaniami, zgodnymi z oczekiwaniami i preferencjami Klienta.                </motion.p >
             </div>
 
-            <div className=' md:max-w-[100%] max-w-md gap-8 p-4 m-auto'>
+            <div className=' md:max-w-[100%] max-w-md gap-8  m-auto'>
 
                 <motion.div
-                    className='lg:p-12 p-8 grid gap-4 '
+                    style={{
+                        backgroundImage: `url(${bg})`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                    }}
+                    className='lg:p-20 p-8 grid gap-4 text-bright '
                     initial={{ y: '20%', opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1 }}
                 >
-                    <p className='md:text-3xl text-2xl text-center text-dark'>Jesteśmy dla ciebie!</p>
-                    <p className='md:text-xl text-md text-dark opacity-90 text-center'>Oferujemy kompleksowe projekty wnętrz zarówno prywatnych - mieszkań i domów, jak i przestrzeni publicznych oraz wielobranżowe projekty architektoniczne. </p>
+                    <p className='md:text-3xl text-2xl text-center '>Jesteśmy dla ciebie!</p>
+                    <p className='md:text-xl text-md  opacity-90 text-center'>Oferujemy kompleksowe projekty wnętrz zarówno prywatnych - mieszkań i domów, jak i przestrzeni publicznych oraz wielobranżowe projekty architektoniczne. </p>
 
                     <a
                         href="/Kontakt"
@@ -42,7 +48,7 @@ export const Services = () => {
 
 
             </div>
-        </div>
+        </div >
     );
 };
 

@@ -26,7 +26,7 @@ export const Offer = () => {
                 </motion.div>
             </div>
 
-            <div className="max-w-screen-md m-auto">
+            <div className="max-w-screen-md mx-auto mb-24">
                 {OfferList.map((offer, index) => (
                     <div key={index}>
                         {offer.projects && offer.projects.map((project, idx) => (

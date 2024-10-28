@@ -24,7 +24,7 @@ export const Hero = () => {
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.7, }}
-                    className='tracking-wide md:text-5xl text-lg text-bright opacity-80 font-bold '>
+                    className='tracking-wide md:text-5xl text-lg text-bright font-bold '>
                     Zadbajmy o Twoją przestrzeń
                 </motion.p>
 
@@ -47,7 +47,6 @@ export const Hero = () => {
                 className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
             />
 
-            Your browser does not support the video tag.
         </header >
     );
 };

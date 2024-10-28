@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import bg from '../../common/Images/contact.jpg';
 import logo from '../../common/Images/BrightLogo.svg';
 import { Link } from 'react-router-dom';
-import piotr from '../../common/Images/Projects/Piter/PIOTREK_WNĘTRZE_Scena 1.effectsResult.png'
+
 export const Interior = () => {
 
     const projects = [
