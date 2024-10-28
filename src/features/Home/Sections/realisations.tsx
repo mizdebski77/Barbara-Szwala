@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export const Realisations = () => {
     return (
-        <div className='grid md:gap-8 gap-4 md:py-20 py-12'>
+        <div className='grid md:gap-8 gap-4 pt-8 md:pb-20 pb-12'>
             <div className='md:px-12 px-4  grid md:gap-8 gap-4'>
                 <motion.h2
                     initial={{ x: '-5%', opacity: 0 }}
