@@ -1,53 +1,66 @@
-import React from 'react';
-import { motion } from "framer-motion"
-import bg from '../../../common/Images/contact.jpg';
+import React from "react";
+import { motion } from "framer-motion";
+import background from "../../../common/Images/HomeImages/outside.png";
 
 export const Services = () => {
     return (
-        <div className='grid md:gap-8 gap-4 md:pb-20 pb-12'>
-            <div className='md:px-12 px-4  grid md:gap-8 gap-4'>
+        <div className="grid md:gap-8 gap-4 md:pb-20 pb-12">
+            <div className="md:px-12 px-4  grid md:gap-8 gap-4">
                 <motion.h2
-                    initial={{ x: '-5%', opacity: 0 }}
+                    initial={{ x: "-5%", opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1 }}
-                    className='md:text-6xl text-3xl text-dark'>Usługi</motion.h2 >
+                    className="md:text-6xl text-3xl text-dark"
+                >
+                    Usługi
+                </motion.h2>
                 <motion.p
-                    initial={{ x: '-5%', opacity: 0 }}
+                    initial={{ x: "-5%", opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1, delay: 0.4 }}
-                    className='md:text-xl text-lg opacity-75 md:max-w-[70%] max-w-full text-justify text-dark'>
-                    Indywidualne podejście do każdego projektu pozwala nam stworzyć przestrzenie dopasowane do stylu życia użytkownika oraz z spersonalizowanymi rozwiązaniami, zgodnymi z oczekiwaniami i preferencjami Klienta.                </motion.p >
+                    className="md:text-xl text-lg opacity-75 md:max-w-[70%] max-w-full text-justify text-dark"
+                >
+                    Indywidualne podejście do każdego projektu pozwala nam
+                    stworzyć przestrzenie dopasowane do stylu życia użytkownika
+                    oraz z spersonalizowanymi rozwiązaniami, zgodnymi z
+                    oczekiwaniami i preferencjami Klienta.{" "}
+                </motion.p>
             </div>
 
-            <div className=' md:max-w-[100%] max-w-md gap-8 '>
+            <div className=" md:max-w-[100%] max-w-md gap-8 ">
                 <motion.div
                     style={{
-                        backgroundImage: `url(${bg})`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
+                        backgroundImage: `url(${background})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "cover",
+                        boxShadow: "inset 0px 0px 200px 26px rgba(0, 0, 0, 1)",
                     }}
-                    className='lg:p-20 p-8 grid gap-4 text-bright '
-                    initial={{ y: '20%', opacity: 0 }}
+                    className="lg:p-20 p-8 grid gap-4 text-bright "
+                    initial={{ y: "20%", opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1 }}
                 >
-                    <p className='md:text-3xl text-2xl text-center '>Jesteśmy dla ciebie!</p>
-                    <p className='md:text-xl text-md  opacity-90 text-center'>Oferujemy kompleksowe projekty wnętrz zarówno prywatnych - mieszkań i domów, jak i przestrzeni publicznych oraz wielobranżowe projekty architektoniczne. </p>
+                    <p className="md:text-3xl text-2xl text-center ">
+                        Jesteśmy dla ciebie!
+                    </p>
+                    <p className="md:text-xl text-md  opacity-90 text-center">
+                        Oferujemy kompleksowe projekty wnętrz zarówno prywatnych
+                        - mieszkań i domów, jak i przestrzeni publicznych oraz
+                        wielobranżowe projekty architektoniczne.{" "}
+                    </p>
 
                     <a
                         href="/Kontakt"
-                        className="m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark ">
+                        className="m-auto group relative overflow-hidden rounded-xl  bg-main md:px-12 px-8 md:py-3 py-2 text-dark transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bright hover:dark "
+                    >
                         <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-dark opacity-10  transition-all duration-700 group-hover:-translate-x-80"></span>
                         <span className="relative md:text-md ">Oferta</span>
                     </a>
                 </motion.div>
-
-
             </div>
-        </div >
+        </div>
     );
 };
-
