@@ -46,7 +46,7 @@ export const Hero = () => {
                 autoPlay
                 loop
                 muted
-                className="absolute z-10  w-fit min-w-full min-h-full max-w-none"
+                className="absolute z-10  w-full min-w-full min-h-full max-w-none"
             />
 
         </header >
