@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion"
-import Barbara from '../../../common/Images/Barbara.svg';
+import Barbara from '../../../common/Images/HomeImages/barbara.jpg';
 
 export const About = () => {
     return (
