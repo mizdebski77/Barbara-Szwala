@@ -1,7 +1,9 @@
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import img from '../common/Images/ex.jpg';
+import img1 from '../common/Images/OfferImages/1Image.jpg';
+import img2 from '../common/Images/OfferImages/2Image.png';
+import img3 from '../common/Images/OfferImages/3Image.jpg';
 
 export const Links = [
     { name: 'Strona Główna', navigation: '/Strona-Główna' },
@@ -24,7 +26,7 @@ export const OfferList = [
         projects: [
             {
                 name: 'Projekt koncepcyjny',
-                img: img,
+                img: img1,
                 items: [
                     'WYWIAD Z KLIENTEM – OMÓWIENIE OCZEKIWAŃ I INSPIRACJI',
                     'INWENTARYZACJA PROJEKTOWANEJ PRZESTRZENI',
@@ -35,7 +37,7 @@ export const OfferList = [
             },
             {
                 name: 'Projekt kompleksowy',
-                img: img,
+                img: img2,
                 items: [
                     'WYWIAD Z KLIENTEM – OMÓWIENIE OCZEKIWAŃ I INSPIRACJI',
                     'INWENTARYZACJA PROJEKTOWANEJ PRZESTRZENI',
@@ -51,7 +53,7 @@ export const OfferList = [
             },
             {
                 name: 'Projekt premium',
-                img: img,
+                img: img3,
                 items: [
                     'WYWIAD Z KLIENTEM – OMÓWIENIE OCZEKIWAŃ I INSPIRACJI',
                     'INWENTARYZACJA PROJEKTOWANEJ PRZESTRZENI',

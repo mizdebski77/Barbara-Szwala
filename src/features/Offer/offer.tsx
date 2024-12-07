@@ -1,5 +1,5 @@
 import React from "react";
-import barbara from "../../common/Images/hero.jpg";
+import background from "../../common/Images/OfferImages/background.jpg";
 import logo from "../../common/Images/BrightLogo.svg";
 import { motion } from "framer-motion";
 import { OfferList } from "../../common/arrays";
@@ -8,9 +8,9 @@ export const Offer = () => {
     return (
         <section>
             <div
-                className="hero min-h-screen"
+                className="hero min-h-screen shadow-5xl p-12"
                 style={{
-                    backgroundImage: `url(${barbara})`,
+                    backgroundImage: `url(${background})`,
                     backgroundPosition: "center",
                     backgroundSize: "cover",
                 }}
