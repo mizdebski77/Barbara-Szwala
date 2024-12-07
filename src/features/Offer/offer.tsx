@@ -46,12 +46,34 @@ export const Offer = () => {
                                                 : "md:flex-row-reverse flex-col"
                                         } my-32 md:gap-12 gap-8`}
                                     >
-                                        <img
+                                        <motion.img
+                                            initial={{
+                                                x:
+                                                    idx % 2 === 0
+                                                        ? "-20%"
+                                                        : "20%",
+                                                opacity: 0,
+                                            }}
+                                            whileInView={{ x: 0, opacity: 1 }}
+                                            viewport={{ once: false }}
+                                            transition={{ duration: 1 }}
                                             src={project.img}
                                             alt={project.name}
                                             className="max-w-md w-full rounded-lg"
                                         />
-                                        <div className="flex-1 px-4">
+                                        <motion.div
+                                            initial={{
+                                                x:
+                                                    idx % 2 === 0
+                                                        ? "20%"
+                                                        : "-20%",
+                                                opacity: 0,
+                                            }}
+                                            whileInView={{ x: 0, opacity: 1 }}
+                                            viewport={{ once: false }}
+                                            transition={{ duration: 1 }}
+                                            className="flex-1 px-4"
+                                        >
                                             <h3 className="text-3xl my-8 text-[#636363]">
                                                 {project.name}
                                             </h3>
@@ -67,7 +89,7 @@ export const Offer = () => {
                                                     )
                                                 )}
                                             </ul>
-                                        </div>
+                                        </motion.div>
                                     </div>
 
                                     <div className="border-b  border-[#aaaaaa] my-8"></div>
