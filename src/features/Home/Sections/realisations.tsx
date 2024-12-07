@@ -1,5 +1,7 @@
 import React from 'react';
-import bg from '../../../common/Images/hero.jpg';
+import interior from '../../../common/Images/HomeImages/interior.png';
+import outside from '../../../common/Images/HomeImages/outside.png';
+
 import { motion } from "framer-motion"
 
 export const Realisations = () => {
@@ -33,18 +35,18 @@ export const Realisations = () => {
                     href='/Projekty-wnętrz'
                     className="relative md:p-48 px-12 py-20 flex justify-center items-center overflow-hidden group"
                     style={{
-                        backgroundImage: `url(${bg})`,
+                        backgroundImage: `url(${interior})`,
                         backgroundPosition: 'center',
                         backgroundSize: 'cover'
                     }}
                 >
                     <span className="absolute inset-0 bg-cover bg-center transition-transform duration-500 scale-100 group-hover:scale-110"
                         style={{
-                            backgroundImage: `url(${bg})`
+                            backgroundImage: `url(${interior})`
                         }}>
                     </span>
 
-                    <span className="relative z-10 text-white text-3xl">Projekty wnętrz</span>
+                    <span className="relative z-10 text-bright text-3xl">Projekty wnętrz</span>
                     <span
                         className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 bottom-12 right-12">
                         🡢
@@ -55,18 +57,18 @@ export const Realisations = () => {
                     href='/Kontakt'
                     className="relative md:p-48 px-12 py-20 flex justify-center items-center overflow-hidden group"
                     style={{
-                        backgroundImage: `url(${bg})`,
+                        backgroundImage: `url(${outside})`,
                         backgroundPosition: 'center',
                         backgroundSize: 'cover'
                     }}
                 >
                     <span className="absolute inset-0 bg-cover bg-center transition-transform duration-500 scale-100 group-hover:scale-110"
                         style={{
-                            backgroundImage: `url(${bg})`
+                            backgroundImage: `url(${outside})`
                         }}>
                     </span>
 
-                    <span className="relative z-10 text-white text-3xl">Architektura</span>
+                    <span className="relative z-10 text-bright text-3xl">Architektura</span>
                     <span
                         className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 bottom-12 right-12">
                         🡢
