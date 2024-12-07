@@ -35,9 +35,8 @@ export const Services = () => {
                         backgroundImage: `url(${background})`,
                         backgroundPosition: "center",
                         backgroundSize: "cover",
-                        boxShadow: "inset 0px 0px 200px 26px rgba(0, 0, 0, 1)",
                     }}
-                    className="lg:p-20 p-8 grid gap-4 text-bright "
+                    className="lg:p-20 p-8 grid gap-4 text-bright  shadow-xl "
                     initial={{ y: "20%", opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false }}

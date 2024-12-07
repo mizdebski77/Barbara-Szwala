@@ -1,7 +1,6 @@
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import { FaSquareFacebook } from "react-icons/fa6";
 import img from '../common/Images/ex.jpg';
 
 export const Links = [
@@ -17,7 +16,6 @@ export const Socials = [
     { icon: IoLogoInstagram, name: 'Instagram', link: 'https://www.instagram.com' },
     { icon: FaPhoneSquareAlt, name: 'Phone', link: 'tel:+1234567890' },
     { icon: IoMail, name: 'E-Mail', link: 'mailto:example@example.com' },
-    { icon: FaSquareFacebook, name: 'Facebook', link: 'https://www.facebook.com' },
 ];
 
 export const OfferList = [

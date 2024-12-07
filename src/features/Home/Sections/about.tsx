@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion"
-import Barbara from '../../../common/Images/HomeImages/barbara.jpg';
+import Barbara from '../../../common/Images/AboutImages/barbara.jpg';
 
 export const About = () => {
     return (
@@ -22,7 +22,7 @@ export const About = () => {
                     transition={{ duration: 1 }}
                     src={Barbara}
                     alt='Barbara'
-                    className='m-auto  max-w-96 w-full' />
+                    className='m-auto max-w-[240px] md:max-w-96 w-full' />
                 <div>
                     <div className='grid md:gap-8 gap-4 items-center justify-center'>
                         <motion.p

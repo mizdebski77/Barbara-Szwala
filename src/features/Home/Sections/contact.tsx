@@ -6,10 +6,9 @@ export const Contact = () => {
     return (
         <div className="grid md:gap-8 gap-4 md:pb-20 pb-12">
             <div
-                className="hero md:py-32 py-12"
+                className="hero md:py-32 py-12 md:shadow-4xl shadow-xl"
                 style={{
                     backgroundImage: `url(${background})`,
-                    boxShadow: "inset 0px 0px 800px 116px rgba(0, 0, 0, 1)",
                 }}
             >
                 <div className="grid md:gap-8 gap-4 px-4">
