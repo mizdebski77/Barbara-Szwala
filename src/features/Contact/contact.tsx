@@ -55,8 +55,16 @@ export const Contact = () => {
                         Skontaktuj się ze mną
                     </h1>
                     <div className="flex gap-8 justify-center">
-                        {Socials.map((social) => (
-                            <social.icon className="cursor-pointer text-buttons duration-300 hover:scale-75 md:text-[32px] text-3xl" />
+                        {Socials.map((social, index) => (
+                            <a
+                                key={index}
+                                href={social.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={social.name}
+                            >
+                                <social.icon className="text-buttons duration-300 hover:scale-75 md:text-[32px] text-3xl" />
+                            </a>
                         ))}
                     </div>
                 </div>
@@ -66,9 +74,12 @@ export const Contact = () => {
                         Adres Barbara <p>Olkusz 32-300</p>
                     </a>
                     <div className="grid">
-                        <a>barbara@gmail.com </a>
-                        <a className="md:text-right text-center">
-                            555 555 555{" "}
+                        <a href="mailto:">kontakt.sbpracownia.pl </a>
+                        <a
+                            className="md:text-right text-center"
+                            href="tel:+605629897"
+                        >
+                            605 629 897
                         </a>
                     </div>
                 </div>
