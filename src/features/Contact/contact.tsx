@@ -128,9 +128,10 @@ export const Contact = () => {
                 <label className="w-full">
                     <legend>Wiadomość *</legend>
                     <textarea
+                        
                         name="message"
                         required
-                        className="bg-bright border-b w-full  py-2 text-dark focus:outline-none"
+                        className="bg-bright border-b w-full resize-none py-2 text-dark focus:outline-none"
                     />
                 </label>
 
