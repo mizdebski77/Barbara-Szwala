@@ -10,11 +10,12 @@ import Footer from "../common/Footer/footer";
 import Home from "../features/Home/home";
 import { Contact } from "../features/Contact/contact";
 import { About } from "../features/About/about";
-import { Interior } from "../features/Interior/interior";
-import { Project } from "../features/Interior/project";
+import { Interior } from "../features/Projects/interior";
+import { Project } from "../features/Projects/project";
 import { Offer } from "../features/Offer/offer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Outside } from "../features/Projects/outside";
 
 function App() {
     return (
@@ -25,7 +26,8 @@ function App() {
                 <Route path="/Kontakt" element={<Contact />} />
                 <Route path="/O-Mnie" element={<About />} />
                 <Route path="/Projekty-Wnętrz" element={<Interior />} />
-                <Route path="/Architektura" element={<Interior />} />
+                <Route path="/Architektura/:id" element={<Project />} />
+                <Route path="/Architektura" element={<Outside />} />
                 <Route
                     path={"*"}
                     element={<Navigate replace to="/Strona-Główna" />}

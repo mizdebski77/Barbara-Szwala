@@ -16,6 +16,7 @@ module.exports = {
         },
         colors: {
             dark: "#060206",
+            opacityDark: "rgba(0,0,0,0.5)",
             bright: "#E6E6E6",
             buttons: "#2f0b0f",
             main: "#dad1c3",
