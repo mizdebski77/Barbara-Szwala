@@ -2,9 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import outsidebg from "../../common/Images/HomeImages/outside.png";
 import logo from "../../common/Images/BrightLogo.svg";
-import { ProjectsLinks } from "../../common/ProjectsBase/projectsLinks";
 import { useLocation } from "react-router-dom";
 import interiorbg from "../../common/Images/HomeImages/interior.png";
+import { ProjectsLinks } from "../../common/arrays";
 
 export const Projects = () => {
     const path = useLocation();
@@ -51,7 +51,7 @@ export const Projects = () => {
                     {pathname
                         ? ProjectsLinks.architecture.map((project) => (
                               <a
-                                  href={`Architektura/${project.id}`}
+                                  href={`Architektura/projekt/${project.id}`}
                                   key={project.id}
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >
@@ -72,7 +72,7 @@ export const Projects = () => {
                           ))
                         : ProjectsLinks.interiors.map((project) => (
                               <a
-                                  href={`Architektura/${project.id}`}
+                                  href={`Architektura/projekt/${project.id}`}
                                   key={project.id}
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >

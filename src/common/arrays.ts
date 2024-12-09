@@ -4,6 +4,12 @@ import { IoMail } from "react-icons/io5";
 import img1 from '../common/Images/OfferImages/1Image.jpg';
 import img2 from '../common/Images/OfferImages/2Image.png';
 import img3 from '../common/Images/OfferImages/3Image.jpg';
+import th1 from '../common/Images/Thumbnails/house.png';
+import bathroom from '../common/Images/Thumbnails/bathroom.png';
+import house from '../common/Images/Thumbnails/home.png';
+import roof from '../common/Images/Thumbnails/roof.png';
+import mom from '../common/Images/Thumbnails/mom.jpg';
+import piter from '../common/Images/Thumbnails/piter.png'
 
 export const Links = [
     { name: 'Strona Główna', navigation: '/Strona-Główna' },
@@ -81,3 +87,63 @@ export const OfferList = [
         ]
     }
 ];
+
+export const ProjectsLinks = {
+    interiors: [
+        {
+            id: '1as12',
+            name: "Projekt w domu jednorodzinnym",
+            imgSrc: mom,
+            location: "Przeginia",
+            surface: '123',
+            date: '2023',
+        },
+
+        {
+            id: '1h5sgb1',
+            name: "Projekt poddasza użytkowego w domu jednorodzinnym",
+            imgSrc: roof,
+            location: "Przeginia",
+            surface: '49',
+            date: '2023',
+        },
+
+        {
+            id: 'j1yus82',
+            name: "Projekt mieszkania ",
+            imgSrc: piter,
+            location: "Olkusz",
+            surface: '52',
+            date: '2024',
+        },
+
+        {
+            id: 'wsa1ju12',
+            name: "Projekt łazienki",
+            imgSrc: bathroom,
+            location: "Braciejówka",
+            surface: '6',
+            date: '2024',
+        },
+
+        {
+            id: 'sas121kj',
+            name: "Projekt domu",
+            imgSrc: house,
+            location: "Braciejówka",
+            surface: '176',
+            date: '2024',
+        },
+
+    ],
+    architecture: [
+        {
+            id: 'sad23hj',
+            name: "Projekt domu z garażem podziemnym",
+            imgSrc: th1,
+            location: "Olkusz",
+            surface: '187',
+            date: '2024',
+        },
+    ],
+};

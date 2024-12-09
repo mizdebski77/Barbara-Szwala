@@ -1,20 +1,14 @@
-import {
-    BrowserRouter,
-    HashRouter,
-    Navigate,
-    Route,
-    Routes,
-} from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Navbar } from "../common/Nabar/navbar";
 import Footer from "../common/Footer/footer";
 import Home from "../features/Home/home";
 import { Contact } from "../features/Contact/contact";
 import { About } from "../features/About/about";
-import { Project } from "../features/Projects/project";
 import { Offer } from "../features/Offer/offer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Projects } from "../features/Projects/projects";
+import { Project } from "../features/Projects/project";
 
 function App() {
     return (
@@ -25,13 +19,16 @@ function App() {
                 <Route path="/Kontakt" element={<Contact />} />
                 <Route path="/O-Mnie" element={<About />} />
                 <Route path="/Projekty-Wnętrz" element={<Projects />} />
-                <Route path="/Architektura/:id" element={<Project />} />
+                <Route path="/Architektura/Projekt/:id" element={<Project />} />
                 <Route path="/Architektura" element={<Projects />} />
                 <Route
                     path={"*"}
                     element={<Navigate replace to="/Strona-Główna" />}
                 ></Route>
-                <Route path="/Projekty-Wnętrz/:id" element={<Project />} />
+                <Route
+                    path="/Projekty-Wnętrz/Projekt/:id"
+                    element={<Project />}
+                />
                 <Route path="/Oferta" element={<Offer />} />
             </Routes>
             <ToastContainer
