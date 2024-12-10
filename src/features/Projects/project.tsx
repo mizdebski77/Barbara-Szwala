@@ -73,23 +73,30 @@ export const Project = () => {
                         whileInView={{ y: 0, opacity: 1 }}
                         viewport={{ once: false }}
                         transition={{ duration: 1 }}
-                        className="flex items-center justify-center p-24 md:gap-8 gap-4 w-full"
+                        className="grid items-center justify-center p-12 md:gap-8 gap-4 w-full"
                     >
                         <img
                             src={logo}
                             alt="Logo"
-                            className="md:max-w-20 max-w-12 w-full"
+                            style={{ width: "100%" }}
+                            className="md:max-w-20 w-full m-auto   max-w-12"
                         />
-                        <h1 className="lg:text-8xl md:text-5xl text-3xl text-bright text-center tracking-widest m-0 whitespace-nowrap">
+                        <h1 className="lg:text-8xl text-center md:text-5xl text-3xl text-bright tracking-widest m-0 ">
                             {project?.name}
                         </h1>
                     </motion.div>
 
-                    <div className="text-bright grid justify-center text-xl">
+                    <motion.div
+                        initial={{ y: "30%", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        viewport={{ once: false }}
+                        transition={{ duration: 1 }}
+                        className="text-bright grid gap-2 justify-center text-2xl"
+                    >
                         <p>Lokalizacja: {project?.location} </p>
                         <p>Metraż: {project?.surface} m2</p>
                         <p>Data realizacji: {project?.date}.r</p>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
 
