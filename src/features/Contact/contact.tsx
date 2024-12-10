@@ -72,7 +72,7 @@ export const Contact = () => {
 
                 <div className="grid md:justify-end justify-center md:text-xl text-lg">
                     <a className="md:text-right text-center">
-                        Adres Barbara <p>Olkusz 32-300</p>
+                        SB Pracownia <p>Olkusz 32-300</p>
                     </a>
                     <div className="grid">
                         <a href="mailto:">kontakt.sbpracownia.pl </a>
