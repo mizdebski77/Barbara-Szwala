@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import outsidebg from "../../common/Images/HomeImages/outside.png";
 import logo from "../../common/Images/BrightLogo.svg";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import interiorbg from "../../common/Images/HomeImages/interior.png";
 import { ProjectsLinks } from "../../common/arrays";
 
@@ -50,8 +50,8 @@ export const Projects = () => {
                 >
                     {pathname
                         ? ProjectsLinks.architecture.map((project) => (
-                              <a
-                                  href={`Architektura/${project.id}`}
+                              <Link
+                                  to={`Architektura/${project.id}`}
                                   key={project.id}
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >
@@ -68,11 +68,11 @@ export const Projects = () => {
                                           className="w-full object-cover rounded-md transition-shadow duration-300 group-hover:shadow-2xl"
                                       />
                                   </div>
-                              </a>
+                              </Link>
                           ))
                         : ProjectsLinks.interiors.map((project) => (
-                              <a
-                                  href={`Architektura/${project.id}`}
+                              <Link
+                                  to={`Projekty-Wnętrz/${project.id}`}
                                   key={project.id}
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >
@@ -89,7 +89,7 @@ export const Projects = () => {
                                           className="h-[400px] object-cover rounded-md transition-shadow duration-300 group-hover:shadow-2xl"
                                       />
                                   </div>
-                              </a>
+                              </Link>
                           ))}
                 </div>
             </div>
