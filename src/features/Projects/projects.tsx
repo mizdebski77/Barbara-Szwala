@@ -7,7 +7,7 @@ import interiorbg from "../../common/Images/HomeImages/interior.png";
 import { ProjectsLinks } from "../../common/arrays";
 import { scrollTop } from "../../core/scrollTop";
 
-export const Projects = () => {
+const Projects = () => {
     const path = useLocation();
     const pathname = path.pathname.includes("Architektura");
     return (
@@ -93,3 +93,5 @@ export const Projects = () => {
         </section>
     );
 };
+
+export default Projects;

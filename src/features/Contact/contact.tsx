@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
 import TextareaAutosize from "react-textarea-autosize";
 
-export const Contact = () => {
+const Contact = () => {
     const [isPending, startTransition] = useTransition();
 
     const handleSuccess = () => {
@@ -150,3 +150,5 @@ export const Contact = () => {
         </div>
     );
 };
+
+export default Contact;

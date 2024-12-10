@@ -10,7 +10,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import logo from "../../common/Images/BrightLogo.svg";
 import { ProjectsLinks } from "../../common/arrays";
 
-export const Project = () => {
+const Project = () => {
     const { id } = useParams();
     const [images, setImages] = useState<string[]>([]);
     const [fullScreen, setFullScreen] = useState(false);
@@ -168,3 +168,5 @@ export const Project = () => {
         </section>
     );
 };
+
+export default Project;

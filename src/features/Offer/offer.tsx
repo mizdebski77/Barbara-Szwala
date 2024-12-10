@@ -4,7 +4,7 @@ import logo from "../../common/Images/BrightLogo.svg";
 import { motion } from "framer-motion";
 import { OfferList } from "../../common/arrays";
 
-export const Offer = () => {
+const Offer = () => {
     return (
         <section className="overflow-hidden">
             <div
@@ -118,3 +118,5 @@ export const Offer = () => {
         </section>
     );
 };
+
+export default Offer;
