@@ -71,7 +71,12 @@ export const Contact = () => {
                 </div>
 
                 <div className="grid md:justify-end justify-center md:text-xl text-lg">
-                    <a className="md:text-right text-center">
+                    <a
+                        href="https://www.instagram.com/sb_pracownia_arch/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="md:text-right text-center"
+                    >
                         SB Pracownia <p>Olkusz 32-300</p>
                     </a>
                     <div className="grid">
