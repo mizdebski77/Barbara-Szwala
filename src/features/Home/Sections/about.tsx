@@ -27,7 +27,7 @@ export const About = () => {
                     className="m-auto max-w-[240px] md:max-w-96 w-full"
                 />
                 <div>
-                    <div className="grid md:gap-8 gap-4 items-center justify-center">
+                    <div className="grid md:gap-8 gap-4 items-center justify-center px-2">
                         <motion.p
                             initial={{ x: "10%", opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}

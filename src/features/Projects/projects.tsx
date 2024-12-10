@@ -47,7 +47,7 @@ export const Projects = () => {
                         gridTemplateColumns:
                             "repeat(auto-fill, minmax(min(480px, 100%), 1fr))",
                     }}
-                    className="flex max-w-[1920px] m-auto  flex-wrap  gap-20"
+                    className="flex max-w-[1920px] m-auto  flex-wrap  md:gap-20 gap-12"
                 >
                     {pathname
                         ? ProjectsLinks.architecture.map((project) => (
@@ -55,7 +55,7 @@ export const Projects = () => {
                                   to={`/Architektura/${project.id}`}
                                   onClick={scrollTop}
                                   key={project.id}
-                                  className="max-w-[510px] w-full h-[400px] m-auto"
+                                  className="max-w-[510px] w-full h-auto m-auto"
                               >
                                   <div className="relative group cursor-pointer">
                                       <span className="text-bright bg-opacityDark text-3xl opacity-0 transition-opacity duration-500 absolute inset-0 flex items-center justify-center group-hover:opacity-100">
@@ -74,7 +74,7 @@ export const Projects = () => {
                                   to={`/Projekty-Wnętrz/${project.id}`}
                                   key={project.id}
                                   onClick={scrollTop}
-                                  className="max-w-[510px] w-full h-[400px] m-auto"
+                                  className="max-w-[510px] w-full h-auto m-auto"
                               >
                                   <div className="relative group cursor-pointer">
                                       <span className="text-bright bg-opacityDark text-3xl opacity-0 transition-opacity duration-500 absolute inset-0 flex items-center justify-center group-hover:opacity-100 p-4">

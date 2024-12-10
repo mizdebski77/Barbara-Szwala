@@ -59,7 +59,7 @@ export const Realisations = () => {
                     <span className="relative z-10 text-bright md:text-3xl text-xl">
                         Projekty wnętrz
                     </span>
-                    <span className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 bottom-12 right-12">
+                    <span className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 md:bottom-12 bottom-4 md:right-12 right-4">
                         <ArrowRight />
                     </span>
                 </a>
@@ -83,7 +83,7 @@ export const Realisations = () => {
                     <span className="relative z-10 text-bright md:text-3xl text-xl">
                         Architektura
                     </span>
-                    <span className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 bottom-12 right-12">
+                    <span className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 md:bottom-12 bottom-4 md:right-12 right-4">
                         <ArrowRight />
                     </span>
                 </a>
