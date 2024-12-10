@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 142 57.34">
+	<defs>
+		<style>
+			.cls-1 {
+			letter-spacing: .16em;
+			}
+			
+			.cls-2 {
+			letter-spacing: .15em;
+			}
+			
+			.cls-3 {
+			letter-spacing: .17em;
+			}
+			
+			.cls-4 {
+			letter-spacing: .16em;
+			}
+			
+			.cls-5 {
+			letter-spacing: .15em;
+			}
+			
+			.cls-6 {
+			font-family: Montserrat-Regular, 'Montserrat Regular';
+			font-size: 6px;
+			}
+			
+			.cls-6, .cls-7 {
+			fill: #ffffff;
+			}
+			
+			.cls-8 {
+			letter-spacing: .16em;
+			}
+			
+			.cls-9 {
+			letter-spacing: .15em;
+			}
+			
+			.cls-10 {
+			letter-spacing: .16em;
+			}
+			
+			.cls-11 {
+			letter-spacing: .16em;
+			}
+		</style>
+	</defs>
+	<g>
+		<path class="cls-7" d="M15,0h4.47c2.5,0,4.53,2.03,4.53,4.53v15.59c-3-1.73-9.06-5.23-9-10.23,0-5.43,.02-1.92,0-9.89Z" />
+		<polygon class="cls-7" points="0 0 9 0 9 20.13 24 29 24 54 15 54 15 34 0 25.33 0 0" />
+		<polygon class="cls-7" points="0 35.68 9 41.01 9 54 0 54 0 35.68" />
+	</g>
+	<g>
+		<path class="cls-7" d="M49.47,54h-4.47s0-28.78,0-28.78c3,1.73,9.06,5.23,9,10.23,0,4.33-.01,8.47,0,14.02,0,2.5-2.02,4.53-4.52,4.53Z" />
+		<rect class="cls-7" x="30" y="0" width="9" height="54" />
+		<path class="cls-7" d="M45,0h4.45C51.96,0,54,2.04,54,4.55v15.86l-9-5.2V0Z" />
+	</g>
+	<text />
+	<text class="cls-6" transform="translate(62.46 45.31) scale(.99 1)">
+		<tspan class="cls-10" x="0" y="0">
+			a
+		</tspan>
+		<tspan class="cls-2" x="3.85" y="0">
+			r
+		</tspan>
+		<tspan class="cls-11" x="6.71" y="0">
+			chi
+		</tspan>
+		<tspan class="cls-5" x="17.02" y="0">
+			t
+		</tspan>
+		<tspan class="cls-11" x="19.93" y="0">
+			ektu
+		</tspan>
+		<tspan class="cls-1" x="34.88" y="0">
+			r
+		</tspan>
+		<tspan class="cls-11" x="37.77" y="0">
+			a
+		</tspan>
+		<tspan class="cls-10" x="0" y="7.2">
+			p
+		</tspan>
+		<tspan class="cls-2" x="4.37" y="7.2">
+			r
+		</tspan>
+		<tspan class="cls-10" x="7.24" y="7.2">
+			ojek
+		</tspan>
+		<tspan class="cls-5" x="21.65" y="7.2">
+			t
+		</tspan>
+		<tspan class="cls-9" x="24.56" y="7.2">
+			o
+		</tspan>
+		<tspan class="cls-8" x="28.77" y="7.2">
+			w
+		</tspan>
+		<tspan class="cls-11" x="34.12" y="7.2">
+			anie wnęt
+		</tspan>
+		<tspan class="cls-3" x="67.4" y="7.2">
+			r
+		</tspan>
+		<tspan class="cls-4" x="70.38" y="7.2">
+			z
+		</tspan>
+	</text>
+</svg>

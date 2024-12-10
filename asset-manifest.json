@@ -1,22 +1,37 @@
 {
   "files": {
-    "main.css": "/Barbara-Szwala/static/css/main.9c082920.css",
-    "main.js": "/Barbara-Szwala/static/js/main.640eeeb5.js",
+    "main.css": "/Barbara-Szwala/static/css/main.b97a496b.css",
+    "main.js": "/Barbara-Szwala/static/js/main.960e4bd5.js",
+    "static/js/952.1773645e.chunk.js": "/Barbara-Szwala/static/js/952.1773645e.chunk.js",
     "static/js/453.b792764d.chunk.js": "/Barbara-Szwala/static/js/453.b792764d.chunk.js",
-    "static/media/contact.jpg": "/Barbara-Szwala/static/media/contact.7802346df843e8f62517.jpg",
-    "static/media/hero.jpg": "/Barbara-Szwala/static/media/hero.226cb94df640260eaf3b.jpg",
-    "static/media/Barbara.svg": "/Barbara-Szwala/static/media/Barbara.ea9af7976f9e9e73ca6ebf9a7510b5ac.svg",
-    "static/media/AiW.svg": "/Barbara-Szwala/static/media/AiW.c2f69e8a86e183a580afd8b17295bc3e.svg",
+    "static/media/bgVideo.mp4": "/Barbara-Szwala/static/media/bgVideo.7f16c2a511acc8272fcd.mp4",
+    "static/media/barbara.jpg": "/Barbara-Szwala/static/media/barbara.78b7e2871bbabd2d9b0b.jpg",
+    "static/media/interior.png": "/Barbara-Szwala/static/media/interior.b6e907e90b4fb68b6287.png",
+    "static/media/outside.png": "/Barbara-Szwala/static/media/outside.5c28fb281b592652ec21.png",
+    "static/media/contactBackground.png": "/Barbara-Szwala/static/media/contactBackground.525902337ce2127bf728.png",
+    "static/media/barbara2.jpg": "/Barbara-Szwala/static/media/barbara2.3348f23729bdcde3719e.jpg",
+    "static/media/2Image.png": "/Barbara-Szwala/static/media/2Image.4ec10376da4dac8a6966.png",
+    "static/media/background.jpg": "/Barbara-Szwala/static/media/background.089ae3609f04a46e97e5.jpg",
+    "static/media/1Image.jpg": "/Barbara-Szwala/static/media/1Image.ff8c48276ff7bc1b2dc5.jpg",
+    "static/media/piter.png": "/Barbara-Szwala/static/media/piter.555f3867dd54028a5a6d.png",
+    "static/media/bathroom.png": "/Barbara-Szwala/static/media/bathroom.7afc25847d100b37993d.png",
+    "static/media/roof.png": "/Barbara-Szwala/static/media/roof.a9cb204c6780f46a6b6b.png",
+    "static/media/home.png": "/Barbara-Szwala/static/media/home.fc6bb3088d06f78ccc15.png",
+    "static/media/mom.jpg": "/Barbara-Szwala/static/media/mom.a5225435b49f22fac46b.jpg",
+    "static/media/3Image.jpg": "/Barbara-Szwala/static/media/3Image.3d7abd97d2f1498df0eb.jpg",
+    "static/media/house.png": "/Barbara-Szwala/static/media/house.63b3160a1bedf5e27e34.png",
+    "static/media/HeaderLogo.svg": "/Barbara-Szwala/static/media/HeaderLogo.e2412af3ac8202ba353a925c8f92caa2.svg",
     "static/media/BrightLogo.svg": "/Barbara-Szwala/static/media/BrightLogo.0edbf3ae3c79d20d725c7133a0637796.svg",
     "static/media/DarkLogo.svg": "/Barbara-Szwala/static/media/DarkLogo.f299b4a9767915efc4a9f8bd32de2b52.svg",
     "index.html": "/Barbara-Szwala/index.html",
     "static/media/Footer.svg": "/Barbara-Szwala/static/media/Footer.2497c510e278ee61d53acef15f808890.svg",
-    "main.9c082920.css.map": "/Barbara-Szwala/static/css/main.9c082920.css.map",
-    "main.640eeeb5.js.map": "/Barbara-Szwala/static/js/main.640eeeb5.js.map",
+    "main.b97a496b.css.map": "/Barbara-Szwala/static/css/main.b97a496b.css.map",
+    "main.960e4bd5.js.map": "/Barbara-Szwala/static/js/main.960e4bd5.js.map",
+    "952.1773645e.chunk.js.map": "/Barbara-Szwala/static/js/952.1773645e.chunk.js.map",
     "453.b792764d.chunk.js.map": "/Barbara-Szwala/static/js/453.b792764d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c082920.css",
-    "static/js/main.640eeeb5.js"
+    "static/css/main.b97a496b.css",
+    "static/js/main.960e4bd5.js"
   ]
 }
