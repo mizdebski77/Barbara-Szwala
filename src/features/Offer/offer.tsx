@@ -6,7 +6,7 @@ import { OfferList } from "../../common/arrays";
 
 export const Offer = () => {
     return (
-        <section>
+        <section className="overflow-hidden">
             <div
                 className="hero min-h-screen shadow-5xl p-12"
                 style={{

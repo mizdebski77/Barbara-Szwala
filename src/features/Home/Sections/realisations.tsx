@@ -26,10 +26,10 @@ export const Realisations = () => {
             </div>
 
             <motion.div
-                // initial={{ y: '-5%', opacity: 0 }}
-                // whileInView={{ y: 0, opacity: 1 }}
-                // viewport={{ once: false }}
-                // transition={{ duration: 1, delay: 0.3 }}
+                initial={{ y: '10%', opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ once: false }}
+                transition={{ duration: 1, delay: 0.3 }}
                 className='grid md:grid-cols-2 gap-12 justify-center items-center max-w-[1500px] m-auto'>
                 <a
                     href='/Projekty-wnętrz'
@@ -46,7 +46,7 @@ export const Realisations = () => {
                         }}>
                     </span>
 
-                    <span className="relative z-10 text-bright text-3xl">Projekty wnętrz</span>
+                    <span className="relative z-10 text-bright md:text-3xl text-xl">Projekty wnętrz</span>
                     <span
                         className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 bottom-12 right-12">
                         🡢
@@ -68,7 +68,7 @@ export const Realisations = () => {
                         }}>
                     </span>
 
-                    <span className="relative z-10 text-bright text-3xl">Architektura</span>
+                    <span className="relative z-10 text-bright md:text-3xl text-xl">Architektura</span>
                     <span
                         className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 bottom-12 right-12">
                         🡢

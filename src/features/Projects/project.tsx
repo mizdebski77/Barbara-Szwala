@@ -73,7 +73,7 @@ export const Project = () => {
                         whileInView={{ y: 0, opacity: 1 }}
                         viewport={{ once: false }}
                         transition={{ duration: 1 }}
-                        className="grid items-center justify-center p-12 md:gap-8 gap-4 w-full"
+                        className="grid items-center justify-center md:p-12 p-4 md:gap-8 gap-4 w-full"
                     >
                         <img
                             src={logo}
@@ -91,7 +91,7 @@ export const Project = () => {
                         whileInView={{ y: 0, opacity: 1 }}
                         viewport={{ once: false }}
                         transition={{ duration: 1 }}
-                        className="text-bright grid gap-2 justify-center text-2xl"
+                        className="text-bright grid gap-2 justify-center md:text-2xl text-lg"
                     >
                         <p>Lokalizacja: {project?.location} </p>
                         <p>Metraż: {project?.surface} m2</p>
@@ -100,14 +100,14 @@ export const Project = () => {
                 </div>
             </div>
 
-            <div className="grid gap-8 justify-center p-12">
+            <div className="grid gap-8 justify-center md:p-12 p-4">
                 {images.length > 0 ? (
                     images.map((url, index) => (
                         <img
                             key={index}
                             src={url}
                             alt={` ${index + 1}`}
-                            className="max-w-5xl h-auto cursor-pointer transition duration-300 hover:scale-[1.02]"
+                            className="max-w-5xl w-full h-auto cursor-pointer transition duration-300 hover:scale-[1.02]"
                             onClick={() => openFullScreen(index)}
                         />
                     ))

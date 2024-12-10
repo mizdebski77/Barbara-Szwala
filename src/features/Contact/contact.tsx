@@ -3,6 +3,7 @@ import { Socials } from "../../common/arrays";
 import { motion } from "framer-motion";
 import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
+import TextareaAutosize from "react-textarea-autosize";
 
 export const Contact = () => {
     const [isPending, startTransition] = useTransition();
@@ -127,11 +128,10 @@ export const Contact = () => {
 
                 <label className="w-full">
                     <legend>Wiadomość *</legend>
-                    <textarea
-                        
+                    <TextareaAutosize
                         name="message"
                         required
-                        className="bg-bright border-b w-full resize-none py-2 text-dark focus:outline-none"
+                        className="bg-bright border-b w-full resize-auto py-2  text-dark focus:outline-none"
                     />
                 </label>
 

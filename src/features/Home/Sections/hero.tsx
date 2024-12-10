@@ -16,7 +16,7 @@ export const Hero = () => {
                     <img
                         src={logo}
                         alt="Logo"
-                        className="md:max-w-md max-w-sm w-full"
+                        className="md:max-w-md max-w-64 w-full md:m-0 m-auto"
                     />
                 </motion.div>
 

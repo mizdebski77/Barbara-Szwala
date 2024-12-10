@@ -56,7 +56,7 @@ export const Projects = () => {
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >
                                   <div className="relative group cursor-pointer">
-                                      <span className="absolute bottom-0 p-4 left-0 right-0 z-[3] text-bright text-2xl flex items-center justify-center bg-buttons">
+                                      <span className="absolute bottom-0 p-4 left-0 right-0 z-[3] text-bright md:ext-2xl text-lg flex items-center justify-center bg-buttons">
                                           {project.name}
                                       </span>
                                       <span className="text-bright bg-opacityDark text-3xl opacity-0 transition-opacity duration-500 absolute inset-0 flex items-center justify-center group-hover:opacity-100">
