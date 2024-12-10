@@ -49,7 +49,7 @@ export const Contact = () => {
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: false }}
                 transition={{ duration: 1 }}
-                className="grid md:grid-cols-2 sbw-full gap-8 md:mb-32 mb-12 px-4"
+                className="grid md:grid-cols-2 w-full gap-8 md:mb-32 mb-12 px-4"
             >
                 <div className="grid md:gap-16 gap-4">
                     <h1 className="text-dark md:text-4xl text-2xl text-center">
@@ -70,7 +70,7 @@ export const Contact = () => {
                     </div>
                 </div>
 
-                <div className="grid md:justify-end justify-center md:text-xl text-lg">
+                <div className="grid md:justify-end justify-center md:text-xl text-lg text-dark">
                     <a
                         href="https://www.instagram.com/sb_pracownia_arch/"
                         target="_blank"
@@ -104,7 +104,7 @@ export const Contact = () => {
             >
                 <div className="md:grid flex flex-col md:grid-cols-2 justify-around gap-8 w-full">
                     <label>
-                        <legend>Imię *</legend>
+                        <legend className="text-dark">Imię *</legend>
                         <input
                             type="text"
                             name="name"
@@ -113,7 +113,7 @@ export const Contact = () => {
                         />
                     </label>
                     <label>
-                        <legend>Nazwisko *</legend>
+                        <legend className="text-dark">Nazwisko *</legend>
                         <input
                             type="text"
                             name="surname"
@@ -124,7 +124,7 @@ export const Contact = () => {
                 </div>
 
                 <label className="w-full">
-                    <legend>E-Mail *</legend>
+                    <legend className="text-dark">E-Mail *</legend>
                     <input
                         type="email"
                         name="email"
@@ -134,7 +134,7 @@ export const Contact = () => {
                 </label>
 
                 <label className="w-full">
-                    <legend>Wiadomość *</legend>
+                    <legend className="text-dark">Wiadomość *</legend>
                     <TextareaAutosize
                         name="message"
                         required
@@ -142,7 +142,7 @@ export const Contact = () => {
                     />
                 </label>
 
-                <button className="m-auto group relative overflow-hidden rounded-xl bg-[#8b6d6a] md:px-12 px-8 md:py-3 py-2 text-bright transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-dark hover:bright ">
+                <button className="m-auto group relative overflow-hidden rounded-xl bg-[#8b6d6a] md:px-12 px-8 py-3  text-bright transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-dark hover:bright ">
                     <span className="ease absolute right-0 -mt-12 h-32 w-12 translate-x-12 rotate-12 transform bg-bright opacity-50  transition-all duration-700 group-hover:-translate-x-80"></span>
                     <span className="relative md:text-xl ">
                         {isPending ? "Wysyłanie..." : "Wyślij"}

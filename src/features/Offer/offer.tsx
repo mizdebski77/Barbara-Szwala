@@ -20,12 +20,12 @@ export const Offer = () => {
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1 }}
-                    className="flex items-center justify-center md:gap-8 gap-4 w-full"
+                    className="md:flex grid items-center justify-center md:gap-8 gap-2 w-full"
                 >
                     <img
                         src={logo}
                         alt="Logo"
-                        className="md:max-w-20 max-w-12 w-full"
+                        className="md:max-w-20 max-w-12 w-full md:m-0 m-auto"
                     />
                     <h1 className="lg:text-8xl md:text-5xl text-[28px] text-bright text-center tracking-widest m-0">
                         Pakiety projektów
@@ -33,7 +33,7 @@ export const Offer = () => {
                 </motion.div>
             </div>
 
-            <div className="max-w-screen-md mx-auto mb-24 md:px-4 px-1">
+            <div className="max-w-screen-md mx-auto mb-24 px-4 ">
                 {OfferList.map((offer, index) => (
                     <div key={index}>
                         {offer.projects &&
@@ -72,9 +72,9 @@ export const Offer = () => {
                                             whileInView={{ x: 0, opacity: 1 }}
                                             viewport={{ once: false }}
                                             transition={{ duration: 1 }}
-                                            className="flex-1 px-4"
+                                            className="flex-1 "
                                         >
-                                            <h3 className="md:text-3xl text-2xl my-8 text-[#636363]">
+                                            <h3 className="md:text-3xl text-2xl my-8 text-dark]">
                                                 {project.name}
                                             </h3>
                                             <ul>
@@ -82,7 +82,7 @@ export const Offer = () => {
                                                     (item, itemIndex) => (
                                                         <li
                                                             key={itemIndex}
-                                                            className="ml-4 list-disc"
+                                                            className="ml-4 list-disc text-dark opacity-80"
                                                         >
                                                             {item}
                                                         </li>
