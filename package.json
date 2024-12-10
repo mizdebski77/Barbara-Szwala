@@ -2,7 +2,7 @@
   "name": "barbara",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mizdebski77.github.io/Barbara-Szwala",
+  "homepage": "https://sbpracownia.pl/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@supabase/supabase-js": "^2.47.3",

@@ -22,7 +22,7 @@ export const Links = [
 
 export const Socials = [
     { icon: IoLogoInstagram, name: 'Instagram', link: 'https://www.instagram.com/sb_pracownia_arch/' },
-    { icon: FaPhoneSquareAlt, name: 'Phone', link: 'tel:+605629897' },
+    { icon: FaPhoneSquareAlt, name: 'Phone', link: 'tel:+48605629897' },
     { icon: IoMail, name: 'E-Mail', link: 'mailto:kontakt.sbpracownia@gmail.com' },
 ];
 
