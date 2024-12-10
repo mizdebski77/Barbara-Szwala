@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export const About = () => {
     return (
         <section>
-            <div className=" text-center md:p-16 p-6  relative">
+            <div className=" text-center md:p-16 p-4  relative">
                 <img
                     src={darkLogo}
                     alt="logo"

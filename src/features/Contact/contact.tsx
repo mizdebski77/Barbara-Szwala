@@ -77,7 +77,7 @@ export const Contact = () => {
                         rel="noopener noreferrer"
                         className="md:text-right text-center"
                     >
-                        SB Pracownia <p>Olkusz 32-300</p>
+                        SB Pracowni
                     </a>
                     <div className="grid">
                         <a href="mailto:">kontakt.sbpracownia.pl </a>

@@ -25,14 +25,14 @@ export const Projects = () => {
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1 }}
-                    className="flex items-center justify-center md:gap-8 gap-4 w-full"
+                    className="flex items-center justify-center md:gap-8 gap-4 w-full p-2"
                 >
                     <img
                         src={logo}
                         alt="Logo"
                         className="md:max-w-20 max-w-12 w-full"
                     />
-                    <h1 className="lg:text-8xl md:text-5xl text-3xl text-bright text-center tracking-widest m-0">
+                    <h1 className="lg:text-8xl md:text-5xl text-[28px] text-bright text-center tracking-widest m-0">
                         {pathname ? "Architektura" : "Projekty Wnętrz"}
                     </h1>
                 </motion.div>
@@ -58,7 +58,7 @@ export const Projects = () => {
                                   className="max-w-[510px] w-full h-auto m-auto"
                               >
                                   <div className="relative group cursor-pointer">
-                                      <span className="text-bright bg-opacityDark text-3xl opacity-0 transition-opacity duration-500 absolute inset-0 flex items-center justify-center group-hover:opacity-100">
+                                      <span className="text-bright bg-opacityDark md:text-3xl text-xl opacity-0 transition-opacity duration-500 absolute inset-0 flex items-center justify-center group-hover:opacity-100">
                                           {project.name}
                                       </span>
                                       <img

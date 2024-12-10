@@ -8,7 +8,7 @@ export const Offer = () => {
     return (
         <section className="overflow-hidden">
             <div
-                className="hero min-h-screen shadow-5xl p-12"
+                className="hero min-h-screen shadow-5xl md:p-12 p-4"
                 style={{
                     backgroundImage: `url(${background})`,
                     backgroundPosition: "center",
@@ -27,13 +27,13 @@ export const Offer = () => {
                         alt="Logo"
                         className="md:max-w-20 max-w-12 w-full"
                     />
-                    <h1 className="lg:text-8xl md:text-5xl text-3xl text-bright text-center tracking-widest m-0">
+                    <h1 className="lg:text-8xl md:text-5xl text-[28px] text-bright text-center tracking-widest m-0">
                         Pakiety projektów
                     </h1>
                 </motion.div>
             </div>
 
-            <div className="max-w-screen-md mx-auto mb-24 px-4">
+            <div className="max-w-screen-md mx-auto mb-24 md:px-4 px-1">
                 {OfferList.map((offer, index) => (
                     <div key={index}>
                         {offer.projects &&
@@ -74,7 +74,7 @@ export const Offer = () => {
                                             transition={{ duration: 1 }}
                                             className="flex-1 px-4"
                                         >
-                                            <h3 className="text-3xl my-8 text-[#636363]">
+                                            <h3 className="md:text-3xl text-2xl my-8 text-[#636363]">
                                                 {project.name}
                                             </h3>
                                             <ul>

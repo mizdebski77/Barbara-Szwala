@@ -91,7 +91,7 @@ export const Project = () => {
                         whileInView={{ y: 0, opacity: 1 }}
                         viewport={{ once: false }}
                         transition={{ duration: 1 }}
-                        className="text-bright grid gap-2 justify-center md:text-2xl text-lg"
+                        className="text-bright grid gap-2 justify-center md:text-2xl text-lg "
                     >
                         <p>Lokalizacja: {project?.location} </p>
                         <p>Metraż: {project?.surface} m2</p>
@@ -121,7 +121,7 @@ export const Project = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
-                    className="fixed top-0 left-0 bottom-0 right-0 z-[20] w-full h-full bg-dark bg-opacity-95 p-10 sm:p-3 m-auto"
+                    className="fixed top-0 left-0 bottom-0 right-0 z-[20] w-full h-full bg-dark bg-opacity-95 md:p-10 p-4 sm:p-3 m-auto"
                 >
                     <Swiper
                         centeredSlides={true}
