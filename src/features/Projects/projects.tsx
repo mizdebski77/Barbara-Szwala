@@ -5,6 +5,7 @@ import logo from "../../common/Images/BrightLogo.svg";
 import { Link, useLocation } from "react-router-dom";
 import interiorbg from "../../common/Images/HomeImages/interior.png";
 import { ProjectsLinks } from "../../common/arrays";
+import { scrollTop } from "../../core/scrollTop";
 
 export const Projects = () => {
     const path = useLocation();
@@ -51,7 +52,8 @@ export const Projects = () => {
                     {pathname
                         ? ProjectsLinks.architecture.map((project) => (
                               <Link
-                                  to={`Architektura/${project.id}`}
+                                  to={`/Architektura/${project.id}`}
+                                  onClick={scrollTop}
                                   key={project.id}
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >
@@ -72,8 +74,9 @@ export const Projects = () => {
                           ))
                         : ProjectsLinks.interiors.map((project) => (
                               <Link
-                                  to={`Projekty-Wnętrz/${project.id}`}
+                                  to={`/Projekty-Wnętrz/${project.id}`}
                                   key={project.id}
+                                  onClick={scrollTop}
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >
                                   <div className="relative group cursor-pointer">
