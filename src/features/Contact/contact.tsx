@@ -49,7 +49,7 @@ export const Contact = () => {
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: false }}
                 transition={{ duration: 1 }}
-                className="grid md:grid-cols-2 w-full gap-8 md:mb-32 mb-12 px-4"
+                className="grid md:grid-cols-2 sbw-full gap-8 md:mb-32 mb-12 px-4"
             >
                 <div className="grid md:gap-16 gap-4">
                     <h1 className="text-dark md:text-4xl text-2xl text-center">
@@ -77,13 +77,15 @@ export const Contact = () => {
                         rel="noopener noreferrer"
                         className="md:text-right text-center"
                     >
-                        SB Pracowni
+                        SB Pracownia
                     </a>
                     <div className="grid">
-                        <a href="mailto:">kontakt.sbpracownia.pl </a>
+                        <a href="mailto:kontakt@sbpracownia.pl">
+                            kontakt@sbpracownia.pl
+                        </a>
                         <a
                             className="md:text-right text-center"
-                            href="tel:605629897"
+                            href="tel:+48605629897"
                         >
                             605 629 897
                         </a>
@@ -150,5 +152,3 @@ export const Contact = () => {
         </div>
     );
 };
-
-
