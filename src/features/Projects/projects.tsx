@@ -44,7 +44,7 @@ export const Projects = () => {
                     style={{
                         display: "grid",
                         gridTemplateColumns:
-                            "repeat(auto-fill, minmax(min(500px, 100%), 1fr))",
+                            "repeat(auto-fill, minmax(min(480px, 100%), 1fr))",
                     }}
                     className="flex max-w-[1920px] m-auto  flex-wrap  gap-20"
                 >

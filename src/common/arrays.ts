@@ -110,7 +110,7 @@ export const ProjectsLinks = {
 
         {
             id: 'j1yus82',
-            name: "Projekt mieszkania ",
+            name: "Projekt mieszkania",
             imgSrc: piter,
             location: "Olkusz",
             surface: '52',
