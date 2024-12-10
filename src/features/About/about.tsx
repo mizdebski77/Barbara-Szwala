@@ -1,7 +1,4 @@
-import React from "react";
-import barbara from "../../common/Images/AboutImages/barbara.jpg";
 import barbara2 from "../../common/Images/AboutImages/barbara2.jpg";
-import logo from "../../common/Images/BrightLogo.svg";
 import darkLogo from "../../common/Images/DarkLogo.svg";
 import { motion } from "framer-motion";
 

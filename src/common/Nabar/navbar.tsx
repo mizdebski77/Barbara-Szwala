@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import logo from "../Images/DarkLogo.svg";
 import { Links } from "../arrays";
 import { NavLink } from "react-router-dom";
@@ -21,7 +21,7 @@ export const Navbar = () => {
         scrollTop();
     };
 
-    const controlNavbar = () => {
+    const controlNavbar = useCallback(() => {
         if (typeof window !== "undefined") {
             if (window.scrollY > lastScrollY) {
                 setIsVisible(false);
@@ -31,7 +31,7 @@ export const Navbar = () => {
             }
             setLastScrollY(window.scrollY);
         }
-    };
+    }, [lastScrollY]);
 
     useEffect(() => {
         if (typeof window !== "undefined") {
@@ -41,7 +41,7 @@ export const Navbar = () => {
                 window.removeEventListener("scroll", controlNavbar);
             };
         }
-    }, [lastScrollY]);
+    }, [controlNavbar]);
 
     return (
         <>

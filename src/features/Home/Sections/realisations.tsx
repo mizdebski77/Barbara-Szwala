@@ -3,6 +3,7 @@ import interior from "../../../common/Images/HomeImages/interior.png";
 import outside from "../../../common/Images/HomeImages/outside.png";
 
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 export const Realisations = () => {
     return (
@@ -59,12 +60,12 @@ export const Realisations = () => {
                         Projekty wnętrz
                     </span>
                     <span className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 bottom-12 right-12">
-                        🡢
+                        <ArrowRight />
                     </span>
                 </a>
 
                 <a
-                    href="/Kontakt"
+                    href="/Architektura"
                     className="relative md:p-48 px-12 py-20 flex justify-center items-center overflow-hidden group"
                     style={{
                         backgroundImage: `url(${outside})`,
@@ -83,7 +84,7 @@ export const Realisations = () => {
                         Architektura
                     </span>
                     <span className="px-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-main text-dark font-bold py-2  rounded absolute z-10 bottom-12 right-12">
-                        🡢
+                        <ArrowRight />
                     </span>
                 </a>
             </motion.div>
