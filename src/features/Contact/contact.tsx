@@ -83,7 +83,7 @@ export const Contact = () => {
                         <a href="mailto:">kontakt.sbpracownia.pl </a>
                         <a
                             className="md:text-right text-center"
-                            href="tel:+605629897"
+                            href="tel:605629897"
                         >
                             605 629 897
                         </a>
