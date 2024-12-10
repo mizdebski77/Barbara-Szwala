@@ -5,7 +5,7 @@ import { Links, Socials } from "../arrays";
 import footerImage from "../Images/Footer.svg";
 import { scrollTop } from "../../core/scrollTop";
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <footer className="w-full grid">
             <img
@@ -94,4 +94,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+

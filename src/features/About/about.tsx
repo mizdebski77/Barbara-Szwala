@@ -2,7 +2,7 @@ import barbara2 from "../../common/Images/AboutImages/barbara2.jpg";
 import darkLogo from "../../common/Images/DarkLogo.svg";
 import { motion } from "framer-motion";
 
-const About = () => {
+export const About = () => {
     return (
         <section>
             <div className=" text-center md:p-16 p-6  relative">
@@ -86,5 +86,3 @@ const About = () => {
         </section>
     );
 };
-
-export default About;
