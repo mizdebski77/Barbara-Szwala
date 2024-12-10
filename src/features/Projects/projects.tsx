@@ -51,7 +51,7 @@ export const Projects = () => {
                     {pathname
                         ? ProjectsLinks.architecture.map((project) => (
                               <a
-                                  href={`Architektura/projekt/${project.id}`}
+                                  href={`Architektura/${project.id}`}
                                   key={project.id}
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >
@@ -72,7 +72,7 @@ export const Projects = () => {
                           ))
                         : ProjectsLinks.interiors.map((project) => (
                               <a
-                                  href={`Architektura/projekt/${project.id}`}
+                                  href={`Architektura/${project.id}`}
                                   key={project.id}
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >

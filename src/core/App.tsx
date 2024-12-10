@@ -19,14 +19,14 @@ function App() {
                 <Route path="/Kontakt" element={<Contact />} />
                 <Route path="/O-Mnie" element={<About />} />
                 <Route path="/Projekty-Wnętrz" element={<Projects />} />
-                <Route path="/Architektura/Projekt/:id" element={<Project />} />
+                <Route path="/Architektura/:id" element={<Project />} />
                 <Route path="/Architektura" element={<Projects />} />
                 <Route
                     path={"*"}
                     element={<Navigate replace to="/Strona-Główna" />}
                 ></Route>
                 <Route
-                    path="/Projekty-Wnętrz/Projekt/:id"
+                    path="/Projekty-Wnętrz/:id"
                     element={<Project />}
                 />
                 <Route path="/Oferta" element={<Offer />} />
