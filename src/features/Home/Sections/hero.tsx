@@ -5,7 +5,7 @@ import bgVideo from "../../../common/videos/bgVideo.mp4";
 export const Hero = () => {
     return (
         <header className="relative flex z-[1] justify-start items-end h-screen mb-12 overflow-hidden">
-            <div className="relative z-30 md:p-12 p-8 bottom-[25%] text-2xl grid md:gap-12 gap-8 text-white bg-purple-300  rounded-xl">
+            <div className="relative z-30 md:p-16 p-8 bottom-[25%] text-2xl grid md:gap-12 gap-8 text-white bg-purple-300  rounded-xl">
                 <motion.div
                     initial={{ y: "-30%", opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}

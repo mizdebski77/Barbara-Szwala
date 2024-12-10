@@ -36,7 +36,7 @@ export const Services = () => {
                         backgroundPosition: "center",
                         backgroundSize: "cover",
                     }}
-                    className="lg:p-20 p-8 grid gap-4 text-bright  shadow-xl "
+                    className="lg:p-20 p-8 grid gap-4 text-bright  shadow-4xl "
                     initial={{ y: "20%", opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false }}

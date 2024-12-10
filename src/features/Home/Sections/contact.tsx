@@ -6,7 +6,7 @@ export const Contact = () => {
     return (
         <div className="grid md:gap-8 gap-4 md:pb-20 pb-12">
             <div
-                className="hero md:py-32 py-12 md:shadow-4xl shadow-xl"
+                className="hero md:py-32 py-12 md:shadow-5xl shadow-5xl"
                 style={{
                     backgroundImage: `url(${background})`,
                 }}

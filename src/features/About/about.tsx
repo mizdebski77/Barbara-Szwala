@@ -8,40 +8,15 @@ import { motion } from "framer-motion";
 export const About = () => {
     return (
         <section>
-            <div
-                className="hero min-h-screen"
-                style={{
-                    backgroundImage: `url(${barbara})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "cover",
-                }}
-            >
-                <motion.div
-                    initial={{ y: "-30%", opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    viewport={{ once: false }}
-                    transition={{ duration: 1 }}
-                    className="flex items-center justify-center md:gap-8 gap-4 w-full"
-                >
-                    <img
-                        src={logo}
-                        alt="Logo"
-                        className="md:max-w-20 max-w-12 w-full"
-                    />
-                    <h1 className="lg:text-8xl md:text-5xl text-3xl text-bright text-center tracking-widest m-0">
-                        O mnie
-                    </h1>
-                </motion.div>
-            </div>
 
-            <div className=" text-center md:p-24 p-6  relative">
+            <div className=" text-center md:p-16 p-6  relative">
                 <img
                     src={darkLogo}
                     alt="logo"
                     className="absolute max-w-3xl opacity-5 w-full m-auto left-0 right-0 top-0 bottom-0 "
                 />
 
-                <h2 className=" md:text-5xl text-3xl md:mb-16 mb-8 z-[2] font-medium">
+                <h2 className=" md:text-5xl text-3xl md:mb-16 mb-8 z-[2] font-medium text-dark">
                     Barbara Szwala
                 </h2>
 
@@ -63,7 +38,7 @@ export const About = () => {
                             transition={{ duration: 1 }}
                             className="grid md:gap-4 gap-2"
                         >
-                            <p className="md:text-xl text-lg text-justify">
+                            <p className="md:text-xl text-lg text-justify text-dark opacity-90">
                                 <p>
                                     Zawsze interesowało mnie jak miejsce, w
                                     którym żyjemy na nas wpływa. W pewnym

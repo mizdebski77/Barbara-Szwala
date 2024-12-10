@@ -24,8 +24,8 @@ module.exports = {
             dirty: "#8b6d6a",
         },
         boxShadow: {
-            "5xl": "inset 0px 0px 800px 656px rgba(0, 0, 0, 0.7)",
-            "4xl": "inset 0px 0px 800px 116px rgba(0, 0, 0, 1)",
+            "5xl": "inset 0px 0px 800px 656px rgba(0, 0, 0, 0.6)",
+            "4xl": "inset 0px 0px 800px 656px rgba(0, 0, 0, 0.5)",
             xl: "inset 0px 0px 200px 16px rgba(0, 0, 0, 1)",
             "3xl": "0 10px  10px rgba(255, 255, 255, 0.3)",
             "2xl": "0 10px  10px rgba(0, 0, 0, 0.3)",

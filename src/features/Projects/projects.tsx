@@ -38,8 +38,8 @@ export const Projects = () => {
                 </motion.div>
             </div>
             <div className="min-h-screen  text-center md:p-24 p-6 relative">
-                <h2 className="md:text-6xl text-3xl md:mb-16 mb-8 z-[2] font-medium">
-                    Moje realizacje
+                <h2 className="md:text-6xl text-3xl md:mb-16 mb-8 z-[2] font-medium text-dark">
+                    Moje projekty
                 </h2>
                 <div
                     style={{
@@ -58,11 +58,8 @@ export const Projects = () => {
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >
                                   <div className="relative group cursor-pointer">
-                                      <span className="absolute bottom-0 p-4 left-0 right-0 z-[3] text-bright md:ext-2xl text-lg flex items-center justify-center bg-buttons">
-                                          {project.name}
-                                      </span>
                                       <span className="text-bright bg-opacityDark text-3xl opacity-0 transition-opacity duration-500 absolute inset-0 flex items-center justify-center group-hover:opacity-100">
-                                          Sprawdź
+                                          {project.name}
                                       </span>
                                       <img
                                           src={project.imgSrc}
@@ -80,16 +77,13 @@ export const Projects = () => {
                                   className="max-w-[510px] w-full h-[400px] m-auto"
                               >
                                   <div className="relative group cursor-pointer">
-                                      <span className="absolute bottom-0 p-4 left-0 right-0 z-[3] text-bright text-2xl flex items-center justify-center bg-buttons">
+                                      <span className="text-bright bg-opacityDark text-3xl opacity-0 transition-opacity duration-500 absolute inset-0 flex items-center justify-center group-hover:opacity-100 p-4">
                                           {project.name}
-                                      </span>
-                                      <span className="text-bright bg-opacityDark text-3xl opacity-0 transition-opacity duration-500 absolute inset-0 flex items-center justify-center group-hover:opacity-100">
-                                          Sprawdź
                                       </span>
                                       <img
                                           src={project.imgSrc}
                                           alt="Project"
-                                          className="h-[400px] object-cover rounded-md transition-shadow duration-300 group-hover:shadow-2xl"
+                                          className="w-full object-cover rounded-md transition-shadow duration-300 group-hover:shadow-2xl"
                                       />
                                   </div>
                               </Link>
