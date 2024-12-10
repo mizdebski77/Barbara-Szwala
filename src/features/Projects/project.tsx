@@ -12,7 +12,7 @@ import { ProjectsLinks } from "../../common/arrays";
 
 export const Project = () => {
     const { id } = useParams();
-    const [images, setImages] = useState([]);
+    const [images, setImages] = useState<string[]>([]);
     const [fullScreen, setFullScreen] = useState(false);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -44,7 +44,7 @@ export const Project = () => {
         fetchImages();
     }, [id]);
 
-    const openFullScreen = (index) => {
+    const openFullScreen = (index: number) => {
         setCurrentImageIndex(index);
         setFullScreen(true);
     };
@@ -53,7 +53,7 @@ export const Project = () => {
         setFullScreen(false);
     };
 
-    const handleImageContextMenu = (e) => {
+    const handleImageContextMenu = (e: React.MouseEvent<HTMLImageElement>) => {
         e.preventDefault();
     };
 
