@@ -74,7 +74,7 @@ export const Offer = () => {
                                             transition={{ duration: 1 }}
                                             className="flex-1 "
                                         >
-                                            <h3 className="md:text-3xl text-2xl my-8 text-dark]">
+                                            <h3 className="md:text-3xl text-2xl my-8 text-dark">
                                                 {project.name}
                                             </h3>
                                             <ul>
