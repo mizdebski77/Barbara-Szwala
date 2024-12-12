@@ -42,7 +42,7 @@ export const About = () => {
                             whileInView={{ y: 0, opacity: 1 }}
                             viewport={{ once: false }}
                             transition={{ duration: 1 }}
-                            className="md:text-xl text-lg opacity-75 text-justify text-dark"
+                            className="md:text-xl text-lg opacity-75 text-left text-dark"
                         >
                             Cześć! Mam na imię Basia&nbsp;jestem architektem
                             i&nbsp;projektantem wnętrz. Moja praca,
@@ -56,7 +56,7 @@ export const About = () => {
                             whileInView={{ y: 0, opacity: 1 }}
                             viewport={{ once: false }}
                             transition={{ duration: 1, delay: 0.2 }}
-                            className="md:text-xl text-lg opacity-75 text-justify text-dark"
+                            className="md:text-xl text-lg opacity-75 text-left text-dark"
                         >
                             Do każdego projektu podchodzę z&nbsp;sumiennością
                             i&nbsp;poczuciem odpowiedzialności, ponieważ wiem,

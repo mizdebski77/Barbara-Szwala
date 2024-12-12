@@ -20,7 +20,7 @@ export const Services = () => {
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1, delay: 0.4 }}
-                    className="md:text-xl text-lg opacity-75 md:max-w-[70%] max-w-full text-justify text-dark"
+                    className="md:text-xl text-lg opacity-75 md:max-w-[70%] max-w-full text-left text-dark"
                 >
                     Indywidualne podejście do każdego projektu pozwala nam
                     stworzyć przestrzenie dopasowane do stylu życia użytkownika

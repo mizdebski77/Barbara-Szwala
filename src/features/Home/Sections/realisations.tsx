@@ -23,7 +23,7 @@ export const Realisations = () => {
                     whileInView={{ x: 0, opacity: 1 }}
                     viewport={{ once: false }}
                     transition={{ duration: 1, delay: 0.4 }}
-                    className="md:text-xl text-lg opacity-75 md:max-w-[1300px] max-w-full text-justify text-dark "
+                    className="md:text-xl text-lg opacity-75 md:max-w-[1300px] max-w-full text-left text-dark "
                 >
                     W naszych projektach dokładamy wszelkich starań, aby projekt
                     spełniał wszelkie oczekiwania i indywidualne preferencje

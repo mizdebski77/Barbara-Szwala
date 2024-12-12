@@ -34,9 +34,11 @@ export const About = () => {
                             transition={{ duration: 1 }}
                             className="grid md:gap-4 gap-2"
                         >
-                            <p className="md:text-xl text-lg text-justify text-dark opacity-90">
+                            <p
+                                className="md:text-xl text-lg text-left text-dark opacity-90"
+                            >
                                 <p>
-                                    Zawsze interesowało mnie jak miejsce, w
+                                    Zawsze interesowało mnie jak miejsce,&nbsp;w
                                     którym żyjemy na nas wpływa. W pewnym
                                     momencie zdałam sobie sprawę, że to właśnie
                                     architektura jest nie tylko kwestią funkcji
