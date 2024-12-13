@@ -50,7 +50,7 @@ export const Hero = () => {
                 autoPlay
                 loop
                 muted
-                playsInline={true}
+                playsInline
                 className="absolute w-full h-full object-cover"
             />
         </header>
