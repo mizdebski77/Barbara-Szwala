@@ -12,7 +12,7 @@ import mom from '../common/Images/Thumbnails/mom.jpg';
 import piter from '../common/Images/Thumbnails/piter.png'
 
 export const Links = [
-    { name: 'Strona Główna', navigation: '/Strona-Główna' },
+    { name: 'Strona Główna', navigation: '/' },
     { name: 'O mnie', navigation: '/O-Mnie' },
     { name: 'Architektura', navigation: '/Architektura' },
     { name: 'Projekty Wnętrz', navigation: '/Projekty-Wnętrz' },

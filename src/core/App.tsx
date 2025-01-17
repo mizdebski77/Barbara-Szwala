@@ -15,7 +15,7 @@ function App() {
         <BrowserRouter>
             <Navbar />
             <Routes>
-                <Route path="/Strona-Główna" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/Kontakt" element={<Contact />} />
                 <Route path="/O-Mnie" element={<About />} />
                 <Route path="/Projekty-Wnętrz" element={<Projects />} />
@@ -23,7 +23,7 @@ function App() {
                 <Route path="/Architektura" element={<Projects />} />
                 <Route
                     path={"*"}
-                    element={<Navigate replace to="/Strona-Główna" />}
+                    element={<Navigate replace to="/" />}
                 ></Route>
                 <Route path="/Projekty-Wnętrz/:id" element={<Project />} />
                 <Route path="/Oferta" element={<Offer />} />

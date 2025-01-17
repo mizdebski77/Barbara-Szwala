@@ -17,7 +17,7 @@ export const Footer = () => {
                 <div className=" lg:flex grid md:justify-evenly justify-center items-center md:p-12 py-8 px-4 md:gap-8 gap-20">
                     <Link
                         onClick={scrollTop}
-                        to="/Strona-Główna"
+                        to="/"
                         className="grid justify-center gap-4"
                     >
                         <img

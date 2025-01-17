@@ -52,7 +52,7 @@ export const Navbar = () => {
             >
                 <NavLink
                     onClick={scrollTop}
-                    to="/Strona-Główna"
+                    to="/"
                     className="flex md:gap-4 gap-2 items-center"
                 >
                     <img
